@@ -1,2 +1,0 @@
-# LearnDotNet
-Learn .NET
