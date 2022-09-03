@@ -1,7 +1,7 @@
 # Материалы для обучения
 
 ## Книги
-- Price M.J. - CSharp 9 and .NET 6 (eng)
+- Price M.J. - CSharp 10 and .NET 6 (eng)
 - Price M.J. - CSharp 9 and .NET 5 (rus)
 - Тепляков С. - Паттерны проектирования на платформе .NET
 - Jeffrey Richter - CLR via C# 5th edition (для самых отчаянных)
