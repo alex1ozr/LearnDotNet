@@ -2,7 +2,8 @@
 В основе - самостоятельное обучение по книге **Price M.J. - CSharp 9 and .NET 6** и выполнение заданий в конце каждой главы в личном GitHub.
 1. 1-2 главы, знакомство с .NET
 2. 3 глава, операторы и исключения
-3. 4 глава, unit-тесты (xUnit)
+3. 4 глава, unit-тесты (xUnit) + 11 глава (LINQ, до раздела Using LINQ with EF Core) 
+    1. Задача FooBar (FizzBuzz)
     1. LeetCode практика 
 5. 5 глава, основы ООП
 6. 6 глава, продолжение изучения ООП
@@ -13,7 +14,6 @@
 11. 10 глава, ORM (EF Core)
 12. [Практическое задание #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
 13. 11 глава, LINQ
-    1. Задача FooBar (FizzBuzz)
 15. 12 глава, многозадачность
 16. 15 глава, ASP.NET
 17. [Практическое задание #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
