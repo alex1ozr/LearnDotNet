@@ -5,9 +5,9 @@
 ## ASP.NET Core
 - [FluentValidations](https://docs.fluentvalidation.net/en/latest/)
 - [Automapper](https://docs.automapper.org/en/stable/Getting-started.html)
-- Swagger
+- [Swagger](https://code-maze.com/swagger-ui-asp-net-core-web-api/)
 
 ## Тестирование
-- xUnit
-- FluentAssertions
-- Moq
+- [xUnit](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
+- [FluentAssertions](https://fluentassertions.com/introduction)
+- [Moq](https://github.com/moq/moq4)
