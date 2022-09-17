@@ -1,6 +1,8 @@
 ﻿using System.Collections;
-
 // Iterator
+// Шаблон проектирования, предоставляющий объект, позволяющий получить последовательный доступ к элементам объекта-агрегата
+// без использования описаний каждого из агрегированных объектов.
+
 var iterator = new StringIterator("str1", "str2", "str3");
 foreach (var item in iterator)
 {

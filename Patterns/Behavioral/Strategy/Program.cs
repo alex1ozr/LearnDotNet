@@ -1,4 +1,5 @@
 ﻿// Strategy pattern
+// Позволяет менять выбранный алгоритм независимо от объектов-клиентов, которые его используют.
 
 var context = new Context(new ConcreteStrategy1());
 

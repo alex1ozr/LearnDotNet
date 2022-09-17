@@ -1,11 +1,11 @@
 ﻿// State
+// Поведенческий шаблон проектирования, позволяющий объекту изменять свое поведение в зависимости от текущего внутреннего состояния состояния.
 
 var printer = new Printer(new ReadyForPrintState());
 printer.Cancel();
 printer.ContinueProcess();
 printer.ContinueProcess();
 printer.Cancel();
-
 
 internal class Printer
 {
