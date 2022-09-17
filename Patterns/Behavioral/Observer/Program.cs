@@ -119,7 +119,7 @@ internal class Team1Fan : IObserver
     public void StopWatching()
     {
         Console.WriteLine($"Fan {Name} is leaving stadium");
-        game.RemoveObserver(this);
+        game?.RemoveObserver(this);
         game = null;
     }
 }
@@ -159,7 +159,7 @@ internal class Team2Fan : IObserver
     public void StopWatching()
     {
         Console.WriteLine($"Fan {Name} is leaving stadium");
-        game.RemoveObserver(this);
+        game?.RemoveObserver(this);
         game = null;
     }
 }

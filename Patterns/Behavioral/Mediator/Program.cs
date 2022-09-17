@@ -61,18 +61,18 @@ class ConcreteColleague2 : Colleague
  
 internal class ConcreteMediator : Mediator
 {
-    public Colleague Colleague1 { get; set; }
-    public Colleague Colleague2 { get; set; }
+    public Colleague? Colleague1 { get; set; }
+    public Colleague? Colleague2 { get; set; }
 
     public override void Send(string msg, Colleague colleague)
     {
         if (Colleague1 == colleague)
         {
-            Colleague2.Notify(msg);
+            Colleague2?.Notify(msg);
         }
         else if (Colleague2 == colleague)
         {
-            Colleague1.Notify(msg);
+            Colleague1?.Notify(msg);
         }
     }
 }
