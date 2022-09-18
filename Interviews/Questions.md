@@ -22,7 +22,7 @@
 16. Stack & heap
 17. Destructor & IDisposable
 18. Что такое идемпотентность и как применяется?
-19. out/ ref/ in
+19. [out/ ref/ in](https://www.pluralsight.com/guides/csharp-in-out-ref-parameters)
 20. Устройство коллекций в .NET
 21. отличие массива и списка
 22. default значение
