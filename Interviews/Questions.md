@@ -7,7 +7,7 @@
     - [Liskov Substitution Principle](https://metanit.com/sharp/patterns/5.3.php) (Принцип подстановки Лисков)
     - [Interface Segregation Principle](https://metanit.com/sharp/patterns/5.4.php) (Принцип разделения интерфейсов)
     - [Dependency Inversion Principle](https://metanit.com/sharp/patterns/5.5.php) (Принцип инверсии зависимостей)
-5. Что такое GRASP?
+5. Что такое [GRASP](https://habr.com/ru/post/92570/)?
 6. Что такое иерархия типов?
 7. Расскажи про устройство памяти
 8. Сколько поколений есть в GC
