@@ -53,21 +53,21 @@ internal class RideMovementType : MovementType
     }
 }
 
-internal abstract class VehicleFactory
+internal abstract class VehicleFactory // Abstract factory
 {
     public abstract Engine CreateEngine();
     
     public abstract MovementType CreateMovementType();
 }
 
-internal class CarFactory : VehicleFactory
+internal class CarFactory : VehicleFactory // Concrete factory
 {
     public override MovementType CreateMovementType() => new RideMovementType();
 
     public override Engine CreateEngine() => new  AutomotiveEngine();
 }
 
-internal class AircraftFactory : VehicleFactory
+internal class AircraftFactory : VehicleFactory // Concrete factory
 {
     public override MovementType CreateMovementType() => new FlyMovementType();
 
