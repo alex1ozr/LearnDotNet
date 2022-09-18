@@ -10,74 +10,76 @@
 5. Что такое [GRASP](https://habr.com/ru/post/92570/)?
 6. Что такое иерархия типов?
 7. Расскажи про устройство памяти
-8. Сколько поколений есть в GC
-9. Class vs Struct
-10. Abstract class vs Interface
-11. Static class vs Singleton
-12. Event vs delegate
-13. Lambda vs delegate
-14. Reference and value types
-15. Stack & heap
-16. Destructor & IDisposable
-17. Что такое идемпотентность и как применяется?
-18. out/ ref/ in
-19. Устройство коллекций в .NET
-20. отличие массива и списка
-21. default значение
-22. Generic класс - что такое?
-23. IEnumerable vs IQuerieble
-24. StringBuilder vs String.Concat()
-25. DateTime vs DateTimeOffset vs TimeSpan
-26. List vs LinkedList
-27. ASP.NET Core как устроена работа с запросами? 
-28. ASP.NET Core что такое Middleware и как используется?
-29. Модель OSI
-30. TCP vs UDP
-31. TLS vs SSL
-32. HTTP методы
-33. JWT токены что такое и как работает
-34. Deadlock, race conditions
-35. Task & Thread
-36. Примитивы синхронизации (Mutex, Monitor, Semaphore, Interlocked)
-37. PLINQ AsParallel когда надо применять?
-38. Producer/Consumer pattern
-39. Почему нельзя await  в lock/Singleton
-40. async await Threads
-41. Уровни изоляции тразакций
-42. [ACID](https://habr.com/ru/post/555920/)
+8. Сколько поколений есть в GC. [Сборка мусора](https://learn.microsoft.com/ru-ru/dotnet/standard/garbage-collection/fundamentals).
+    - Поколения: 0, 1, 2
+    - Куча малых объектов (SOH) и Куча больших объектов (LOH)
+10. [Class vs Struct](https://c-sharp.pro/классы-или-структуры-в-чем-отличия/)
+11. Abstract class vs Interface
+12. Static class vs Singleton
+13. Event vs delegate
+14. Lambda vs delegate
+15. Reference and value types
+16. Stack & heap
+17. Destructor & IDisposable
+18. Что такое идемпотентность и как применяется?
+19. out/ ref/ in
+20. Устройство коллекций в .NET
+21. отличие массива и списка
+22. default значение
+23. Generic класс - что такое?
+24. IEnumerable vs IQuerieble
+25. StringBuilder vs String.Concat()
+26. DateTime vs DateTimeOffset vs TimeSpan
+27. List vs LinkedList
+28. ASP.NET Core как устроена работа с запросами? 
+29. ASP.NET Core что такое Middleware и как используется?
+30. Модель OSI
+31. TCP vs UDP
+32. TLS vs SSL
+33. HTTP методы
+34. JWT токены что такое и как работает
+35. Deadlock, race conditions
+36. Task & Thread
+37. Примитивы синхронизации (Mutex, Monitor, Semaphore, Interlocked)
+38. PLINQ AsParallel когда надо применять?
+39. Producer/Consumer pattern
+40. Почему нельзя await  в lock/Singleton
+41. async await Threads
+42. Уровни изоляции тразакций
+43. [ACID](https://habr.com/ru/post/555920/)
     - Atomicity — Атомарность
     - Consistency — Согласованность
     - Isolation — Изолированность
     - Durability — Надёжность
-43. Индексы в БД. Что такое? Какие бывают?
-44. Кластерные и не кластерные индексы
-45. Временные таблицы. Что такое? Какие бывают?
-46. CQRS+Event Sourcing
-47. Immutability
-48. DDD/TDD etc.
-49. Saga vs 2nd phase commit
-50. WHERE vs HAVING 
-51. How do you define good code?
-52. How would you ensure scalability of code? What are the principles of good code (SOLID)?
-53. What are the most used design patterns and how do they work?
-54. How can you add to the application build-in .net core dependency injection to help to implement principle D in SOLID? 
-55. In a high scalable app which is decomposed to modules, what solution would you suggest to decompose dependency injection logic? How to ensure modularity and scalability? Reflection? 
-56. Differences between Constants and Readonly fields?
-57. What is the criteria of value that could be set to a constant field?
-58. What is static, what are the risks behind static fields, why to use them?
-59. What are the solutions to work with static but to avoid multithreading issues?
-60. Thread static attribute?
-61. You’ve been investigating slow api, some select queries take too much time, how to investigate why they are slow?
-62. How can databases store data efficiently ?
-63. What is the purpose of index in db? 
-64. Why O(1) for adding and finding in c# dictionary? questions about collision
-65. What's your definition of a clean code? What things to avoid?
-66. Solid, example of single responsibility?
-67. Design patterns, did you have a case when you used it?
-68. What is dependency injection, how does it help the project?
-69. Value types and reference types differences?
-70. How do you delete reference type from a memory? questions about garbage collector, finalizing method
-71. String types, why are special types in c#, is it value types or reference types?
-72. Questions about string builder
-73. Service for shortening urls bitly, how we can create systems like this, what database, architecture, cache, etc to use?
-74. Difference between 301 (permanent) and 302 types of redirection?
+44. Индексы в БД. Что такое? Какие бывают?
+45. Кластерные и не кластерные индексы
+46. Временные таблицы. Что такое? Какие бывают?
+47. CQRS+Event Sourcing
+48. Immutability
+49. DDD/TDD etc.
+50. Saga vs 2nd phase commit
+51. WHERE vs HAVING 
+52. How do you define good code?
+53. How would you ensure scalability of code? What are the principles of good code (SOLID)?
+54. What are the most used design patterns and how do they work?
+55. How can you add to the application build-in .net core dependency injection to help to implement principle D in SOLID? 
+56. In a high scalable app which is decomposed to modules, what solution would you suggest to decompose dependency injection logic? How to ensure modularity and scalability? Reflection? 
+57. Differences between Constants and Readonly fields?
+58. What is the criteria of value that could be set to a constant field?
+59. What is static, what are the risks behind static fields, why to use them?
+60. What are the solutions to work with static but to avoid multithreading issues?
+61. Thread static attribute?
+62. You’ve been investigating slow api, some select queries take too much time, how to investigate why they are slow?
+63. How can databases store data efficiently ?
+64. What is the purpose of index in db? 
+65. Why O(1) for adding and finding in c# dictionary? questions about collision
+66. What's your definition of a clean code? What things to avoid?
+67. Solid, example of single responsibility?
+68. Design patterns, did you have a case when you used it?
+69. What is dependency injection, how does it help the project?
+70. Value types and reference types differences?
+71. How do you delete reference type from a memory? questions about garbage collector, finalizing method
+72. String types, why are special types in c#, is it value types or reference types?
+73. Questions about string builder
+74. Service for shortening urls bitly, how we can create systems like this, what database, architecture, cache, etc to use?
+75. Difference between 301 (permanent) and 302 types of redirection?
