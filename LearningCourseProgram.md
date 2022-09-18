@@ -10,10 +10,11 @@
 7. 7 глава, сериализация
 8. 8 глава, структуры данных
 9. 9 глава, сериализация
-10. [Практическое задание #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
-11. 10 глава, ORM (EF Core)
-12. [Практическое задание #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
-13. 11 глава, LINQ
+10. [Шаблоны проектирования](https://github.com/alex1ozr/LearnDotNet/tree/main/Patterns)
+11. [Практическое задание #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
+12. 10 глава, ORM (EF Core)
+13. [Практическое задание #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
+14. 11 глава, LINQ
 15. 12 глава, многозадачность
 16. 15 глава, ASP.NET
 17. [Практическое задание #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
