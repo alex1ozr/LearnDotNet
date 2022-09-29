@@ -8,8 +8,8 @@
 
 ## Полезные ссылки
 - [C# Style-guide от Microsoft](https://docs.microsoft.com/ru-ru/dotnet/standard/design-guidelines/naming-guidelines)
-- [Online-редактор C#](https://dotnetfiddle.net)
-- [Online-редактор C#](https://sharplab.io) для просмотра результирующего кода
+- [DotnetFiddle - Online-редактор C#](https://dotnetfiddle.net)
+- [Sharplab - Online-редактор C#](https://sharplab.io) для просмотра результирующего кода
 - [CodeWars](https://www.codewars.com/dashboard)
 - [Основы Git](https://learngitbranching.js.org/?locale=ru_RU)
 - [Курс от Контура](https://ulearn.me)
