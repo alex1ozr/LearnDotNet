@@ -2,6 +2,7 @@
 
 1. Do code review, optimize and say O(n):
 
+```cs
 public static class MyLinq
 {
     public static IEnumerable<T> Reverse<T>(this IEnumerable<T> source)
@@ -51,12 +52,16 @@ public static class MyLinq
         return result;
     }
 }
+```
+
+
 
 2. Необходимо реализовать консольное приложение для подсчета слов на веб странице.
 На входе принимается строка с url адресом страницы. Приложение должно посчитать кол-во слов на этой странице. 
 Результат логировать в файл и выводить в консоль.
 Данная бизнес-задача со временем будет дополняться новыми требованиями и приложение будет развиваться.
 
+```cs
 public class ContentParser : IParser, IRequestManager
     {
         private ILogger Logger;
@@ -119,6 +124,7 @@ public class ContentParser : IParser, IRequestManager
                 Logger.Log(new LogMessage{Message = String.Format("Ошибка при обработке адреса {0}", url), Exception = ex });
             }
         }
-		
-		
+	
+	
     }
+```
