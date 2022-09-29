@@ -1,4 +1,4 @@
-# Вопросы на собеседованиях
+# Interview questions
 
 ### OOP
 1. [OOP Principles](https://habr.com/ru/company/otus/blog/525336/)
@@ -11,14 +11,17 @@
 
 ### Immutable
 1. String / StringBuilder - what and why?
-2. GetHashCode. What it is, what it for, Which requirements
-3. Whats immutable? whats for?
+    - String types, why are special types in c#, is it value types or reference types?
+3. GetHashCode. What it is, what it for, Which requirements
+4. Whats immutable? whats for?
 
 ### .NET
-1. Ref and out parameters?
-2. Readonly / Const - difference?
-3. Type safety / [duck typing in .net](https://stackoverflow.com/questions/21278078/what-is-interface-duck-typing) (dynamics, foreach)
-4. default value of type
+1. [out/ ref/ in](https://www.pluralsight.com/guides/csharp-in-out-ref-parameters)
+2. Static / readonly / Const fields - difference?
+    - What is the criteria of value that could be set to a constant field?
+    - What is static, what are the risks behind static fields, why to use them?
+4. Type safety / [duck typing in .net](https://stackoverflow.com/questions/21278078/what-is-interface-duck-typing) (dynamics, foreach)
+5. default value of type
 
 ### LINQ
 1. LINQ
@@ -33,9 +36,9 @@
 3. SOH, LOH, STACK (Small)
 5. Memory leaks in .net. Where? When? Why?
 6. Garbage Collector
-7. How many generations. [Сборка мусора](https://learn.microsoft.com/ru-ru/dotnet/standard/garbage-collection/fundamentals).
+7. How many generations. [Garbage collection](https://learn.microsoft.com/ru-ru/dotnet/standard/garbage-collection/fundamentals).
     - Generations: 0, 1, 2
-    - Куча малых объектов (SOH) и Куча больших объектов (LOH)
+    - Small objects heap (SOH) vs Large objects heap (LOH)
 8. When, how to GC
 9. Reference graph
 10. Finalizer vs IDisposable
@@ -50,7 +53,9 @@
 4. Lock Kevword
 5. Deadlock, race conditions
 6. Mutex / Semafor / Monitor
-7. Volatile? ThreadStatic?
+7. Volatile? ThreadStatic? ThreadLocal?
+8. Interlocked
+9. What are the solutions to work with static but to avoid multithreading issues?
 
 ### Async/Await
 1. What it is? When it use?
@@ -59,9 +64,10 @@
 
 ### Data structures and Algorythms
 1. Dictionary and HashTable - what for?
-2. Big-O notation
-3. DateTime vs DateTimeOffset vs TimeSpan
-4. List vs LinkedList
+    - Why O(1) for adding and finding in c# dictionary? questions about collision
+3. Big-O notation
+4. DateTime vs DateTimeOffset vs TimeSpan
+5. List vs LinkedList vs Array
 
 ### Principles / Patterns
 1. Design pattern / antipattern (which design patterns you know?)
@@ -76,6 +82,13 @@
 6. Static class vs Singleton
 7. Producer/Consumer pattern
 8. DDD/TDD etc.
+9. Idempotence
+10. CQRS+Event Sourcing
+11. Saga vs 2nd phase commit
+12. How do you define good code?
+13. What are the most used design patterns and how do they work?
+14. How can you add to the application build-in .net core dependency injection to help to implement principle D in SOLID?
+15. In a high scalable app which is decomposed to modules, what solution would you suggest to decompose dependency injection logic? How to ensure modularity and scalability? Reflection? 
 
 ### Testing
 1. Tests - howto? Unit \ Integration tests? What's difference?
@@ -89,57 +102,22 @@
 5. JWT tokens
 6. [Difference between 301 (permanent) and 302 types of redirection?](https://www.domain.com/blog/what-is-a-redirect/)
 
-
-17. Destructor & IDisposable
-18. Что такое идемпотентность и как применяется?
-19. [out/ ref/ in](https://www.pluralsight.com/guides/csharp-in-out-ref-parameters)
-20. Устройство коллекций в .NET
-21. отличие массива и списка
-22. 
-26. 
-27. 
-28. ASP.NET Core как устроена работа с запросами? 
-29. ASP.NET Core что такое Middleware и как используется?
-
-35. 
-
-37. Примитивы синхронизации (Mutex, Monitor, Semaphore, Interlocked)
-38. PLINQ AsParallel когда надо применять?
-39. 
-40. 
-42. Уровни изоляции тразакций
-43. [ACID](https://habr.com/ru/post/555920/)
+### Database / ORM (EF)
+1. Transaction isolation levels
+2. [ACID](https://habr.com/ru/post/555920/)
     - Atomicity — Атомарность
     - Consistency — Согласованность
     - Isolation — Изолированность
     - Durability — Надёжность
-44. Индексы в БД. Что такое? Какие бывают?
-45. Кластерные и не кластерные индексы
-46. Временные таблицы. Что такое? Какие бывают?
-47. CQRS+Event Sourcing
-50. Saga vs 2nd phase commit
-51. WHERE vs HAVING 
-52. How do you define good code?
-53. How would you ensure scalability of code? What are the principles of good code (SOLID)?
-54. What are the most used design patterns and how do they work?
-55. How can you add to the application build-in .net core dependency injection to help to implement principle D in SOLID? 
-56. In a high scalable app which is decomposed to modules, what solution would you suggest to decompose dependency injection logic? How to ensure modularity and scalability? Reflection? 
-57. Differences between Constants and Readonly fields?
-58. What is the criteria of value that could be set to a constant field?
-59. What is static, what are the risks behind static fields, why to use them?
-60. What are the solutions to work with static but to avoid multithreading issues?
-61. Thread static attribute?
-62. You’ve been investigating slow api, some select queries take too much time, how to investigate why they are slow?
-63. How can databases store data efficiently ?
-64. What is the purpose of index in db? 
-65. Why O(1) for adding and finding in c# dictionary? questions about collision
-66. What's your definition of a clean code? What things to avoid?
-67. Solid, example of single responsibility?
-68. Design patterns, did you have a case when you used it?
-69. What is dependency injection, how does it help the project?
-70. Value types and reference types differences?
-71. How do you delete reference type from a memory? questions about garbage collector, finalizing method
-72. String types, why are special types in c#, is it value types or reference types?
-73. Questions about string builder
-74. Service for shortening urls bitly, how we can create systems like this, what database, architecture, cache, etc to use?
-75. 
+3. Temporary tables
+4. Clustered vs non-clustered indexes
+5. WHERE vs HAVING
+6. How can databases store data efficiently?
+7. You’ve been investigating slow api, some select queries take too much time, how to investigate why they are slow?
+
+### ASP.NET Core
+1. Middleware
+2. Requests pipeline
+
+### System Design
+1. Service for shortening urls bitly, how we can create systems like this, what database, architecture, cache, etc to use?
