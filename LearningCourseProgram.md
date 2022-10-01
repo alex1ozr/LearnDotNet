@@ -3,8 +3,9 @@
 1. 1-2 главы, знакомство с .NET
 2. 3 глава, операторы и исключения
 3. 4 глава, unit-тесты (xUnit) + 11 глава (LINQ, до раздела Using LINQ with EF Core) 
-    1. Задача [FizzBuzz](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/FizzBuzz.md)
-    1. LeetCode практика 
+    - Задача [FizzBuzz](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/FizzBuzz.md)
+    - LeetCode практика 
+    - [Принципы unit-тестирования](https://www.youtube.com/watch?v=LkrqqpkKIXE)
 5. 5 глава, основы ООП
 6. 6 глава, продолжение изучения ООП
 7. 7 глава, сериализация
