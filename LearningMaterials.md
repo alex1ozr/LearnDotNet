@@ -7,7 +7,7 @@
 - Jeffrey Richter - CLR via C# 5th edition (для самых отчаянных)
 
 ## Полезные ссылки
-- [C# Style-guide от Microsoft](https://docs.microsoft.com/ru-ru/dotnet/standard/design-guidelines/naming-guidelines)
+- [C# Style-guide от Microsoft](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
 - [DotnetFiddle - Online-редактор C#](https://dotnetfiddle.net)
 - [Sharplab - Online-редактор C#](https://sharplab.io) для просмотра результирующего кода
 - [CodeWars](https://www.codewars.com/dashboard)
