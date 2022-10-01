@@ -1,0 +1,25 @@
+<Project>
+  
+  <PropertyGroup>
+    <CommonPrefix>LearnDotNet</CommonPrefix>
+    <Authors>AErmilov</Authors>
+    <AssemblyName>$(CommonPrefix).$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>$(CommonPrefix).$(MSBuildProjectName)</RootNamespace>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>default</LangVersion>
+    <EmbedAllSources>true</EmbedAllSources>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  
+</Project>
