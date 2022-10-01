@@ -56,10 +56,11 @@ public static class MyLinq
 
 
 
-2. Необходимо реализовать консольное приложение для подсчета слов на веб странице.
-На входе принимается строка с url адресом страницы. Приложение должно посчитать кол-во слов на этой странице. 
-Результат логировать в файл и выводить в консоль.
-Данная бизнес-задача со временем будет дополняться новыми требованиями и приложение будет развиваться.
+2. It is required to implement a console application for counting words on a web page. 
+- The input takes a string with the URL address of the page. 
+- The application should count the number of words on this page. 
+- The result should be logged to a file and console. 
+- The solution will be supplemented with new requirements over time and the application will evolve.
 
 ```cs
 public class ContentParser : IParser, IRequestManager
@@ -75,7 +76,7 @@ public class ContentParser : IParser, IRequestManager
         {
             try
             {
-                Logger.Log(new LogMessage { Message = String.Format("Обработка адреса {0}", url)});
+                Logger.Log(new LogMessage { Message = String.Format("Processing address {0}", url)});
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
@@ -102,11 +103,11 @@ public class ContentParser : IParser, IRequestManager
                               .Where(x => x.Word.Length > 0)
                               .OrderByDescending(x => x.Frequency);
 
-                    Logger.Log(new LogMessage { Message = String.Format("Обработка адреса {0} завершена. Результаты обработки:", url) });
+                    Logger.Log(new LogMessage { Message = String.Format("Address {0} was processed. Processing result:", url) });
                     string msg;
                     foreach (var item in result)
                     {
-                        msg = String.Format("Слово: {0}\tКоличество повторов: {1}", item.Word, item.Frequency);
+                        msg = String.Format("Word: {0}\tThe number of repetitions: {1}", item.Word, item.Frequency);
                         Console.WriteLine(msg);
                         Logger.Log(new LogMessage { Message = msg });
                     }
@@ -115,13 +116,13 @@ public class ContentParser : IParser, IRequestManager
                     readStream.Close();
                 }
                 else
-                    Logger.Log(new LogMessage { Message = String.Format("Не удалось обработать адрес {0}. " +
-                                                                            "Попробуйте выполнить запрос позднее.", url) });
+                    Logger.Log(new LogMessage { Message = String.Format("Couldn't process address {0}. " +
+                                                                            "Try again later.", url) });
                 
             }
             catch (Exception ex)
             {
-                Logger.Log(new LogMessage{Message = String.Format("Ошибка при обработке адреса {0}", url), Exception = ex });
+                Logger.Log(new LogMessage{Message = String.Format("Processing error for address {0}", url), Exception = ex });
             }
         }
 	
