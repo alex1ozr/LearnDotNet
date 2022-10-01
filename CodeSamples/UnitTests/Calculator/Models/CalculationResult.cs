@@ -1,4 +1,4 @@
-namespace LearnDotNet.UnitTests.Calculator;
+namespace LearnDotNet.UnitTests.Calculator.Models;
 
 internal class CalculationResult
 {

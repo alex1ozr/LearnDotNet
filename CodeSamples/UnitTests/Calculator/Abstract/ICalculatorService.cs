@@ -1,4 +1,6 @@
-namespace LearnDotNet.UnitTests.Calculator;
+using LearnDotNet.UnitTests.Calculator.Models;
+
+namespace LearnDotNet.UnitTests.Calculator.Abstract;
 
 internal interface ICalculatorService
 {
