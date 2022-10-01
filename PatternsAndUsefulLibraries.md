@@ -1,4 +1,4 @@
-# Интересные технологии для внедрения
+# Полезные технологии для внедрения
 ## Паттерны
 - [MediatR](https://code-maze.com/cqrs-mediatr-in-aspnet-core/)
 
