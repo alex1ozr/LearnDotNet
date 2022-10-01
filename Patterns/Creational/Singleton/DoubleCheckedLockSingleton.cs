@@ -1,4 +1,4 @@
-namespace Singleton;
+namespace LearnDotNet.Singleton;
 
 public sealed class DoubleCheckedLockSingleton
 {

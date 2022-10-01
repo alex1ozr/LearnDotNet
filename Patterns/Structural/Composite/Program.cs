@@ -13,11 +13,11 @@ baseDir.PrintContent();
 
 internal abstract class Component
 {
-    protected string name;
+    protected readonly string Name;
 
     protected Component(string name)
     {
-        this.name = name;
+        Name = name;
     }
 
     public virtual void Add(Component component)
@@ -30,7 +30,7 @@ internal abstract class Component
 
     public virtual void PrintContent()
     {
-        Console.WriteLine(name);
+        Console.WriteLine(Name);
     }
 }
 
@@ -57,12 +57,12 @@ internal class Directory :Component
 
     public override void PrintContent()
     {
-        Console.WriteLine($"Directory '{name}' contains:");
+        Console.WriteLine($"Directory '{Name}' contains:");
         foreach (var component in content)
         {
             component.PrintContent();
         }
-        Console.WriteLine($"End of dir '{name}'");
+        Console.WriteLine($"End of dir '{Name}'");
     }
 }
  

@@ -20,7 +20,7 @@ internal abstract class Mediator
 
 internal abstract class Colleague
 {
-    private Mediator mediator;
+    private readonly Mediator mediator;
 
     protected Colleague(Mediator mediator)
     {

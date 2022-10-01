@@ -96,7 +96,7 @@ internal class DecreasePriceCommand : ICommand
 internal class PhoneMarket
 {
     private readonly Stack<ICommand> commandsHistory;
-    private ICommand? command;
+    private ICommand? currentCommand;
 
     public PhoneMarket()
     {
@@ -118,17 +118,17 @@ internal class PhoneMarket
         }
     }
     
-    private void SetCommand(ICommand command) => this.command = command;
+    private void SetCommand(ICommand command) => currentCommand = command;
 
     private void InvokeCurrentCommand()
     {
-        if (command is null)
+        if (currentCommand is null)
         {
             Console.WriteLine("No command to execute");
             return;
         }
         
-        commandsHistory.Push(command);
-        command.Execute();
+        commandsHistory.Push(currentCommand);
+        currentCommand.Execute();
     }
 }

@@ -2,8 +2,8 @@
 // Отделяет конструирование сложного объекта от его представления так,
 // что в результате одного и того же процесса конструирования могут получаться разные представления.
 
-VehicleBuilder builder;
 var factory = new VehicleFactory();
+VehicleBuilder builder;
 
 builder = new CarBuilder();
 factory.Construct(builder);
@@ -28,7 +28,7 @@ internal class VehicleFactory // Director class
 
 internal abstract class VehicleBuilder
 {
-    protected Vehicle vehicle;
+    protected readonly Vehicle vehicle;
 
     protected VehicleBuilder(Vehicle vehicle)
     {
@@ -90,7 +90,7 @@ internal class AircraftBuilder : VehicleBuilder
 
 internal class Vehicle
 {
-    private string vehicleType;
+    private readonly string vehicleType;
 
     public string? BodyType { get; set; }
     public string? Engine { get; set; }

@@ -13,7 +13,7 @@ footballGame.StartGame(); // Continue to imitate game
  
 internal interface IObserver
 {
-    void Update(Object ob);
+    void Update(Object obj);
 }
  
 internal interface IObservable
@@ -97,7 +97,7 @@ internal class Team1Fan : IObserver
         game.RegisterObserver(this);
     }
 
-    public void Update(object ob)
+    public void Update(object obj)
     {
         if (game is null)
         {
@@ -137,7 +137,7 @@ internal class Team2Fan : IObserver
         game.RegisterObserver(this);
     }
 
-    public void Update(object ob)
+    public void Update(object obj)
     {
         if (game is null)
         {
