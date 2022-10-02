@@ -12,7 +12,7 @@ namespace LearnDotNet.FizzBuzz
     public class FizzBuzzBenchmark
     {
         private static readonly Random random = new();
-        private int[] data = Array.Empty<int>();
+        private IEnumerable<int> data = Array.Empty<int>();
 
         private readonly Consumer consumer = new();
         private readonly FizzBuzzLinq fizzBuzzLinq = new();
@@ -22,13 +22,14 @@ namespace LearnDotNet.FizzBuzz
         [GlobalSetup]
         public void Setup()
         {
-            data = Enumerable.Repeat(15, 10_000_000).ToArray();
+            //data = Enumerable.Range(1, 10_000_000);
+            data = Enumerable.Repeat(15, 10_000_000);
             //data = Enumerable.Repeat(15, 10_000).Select(_ => random.Next()).ToArray();
         }
     
         [Benchmark]
         public void FizzBuzzLinq() => fizzBuzzLinq.ConvertToFizzBuzz(data).Consume(consumer);
-    
+
         [Benchmark]
         public void FizzBuzzList() => fizzBuzzList.ConvertToFizzBuzz(data).Consume(consumer);
     
