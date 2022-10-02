@@ -18,6 +18,7 @@
 13. [Практическое задание #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
 14. 11 глава, LINQ
     - [MSDN](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)
+    - [LINQ pipeline](https://www.red-gate.com/simple-talk/development/dotnet-development/linq-secrets-revealed-chaining-and-debugging/#fourth)
 16. 12 глава, многозадачность
 17. 15 глава, ASP.NET
 18. [Практическое задание #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
