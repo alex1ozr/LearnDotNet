@@ -5,6 +5,7 @@
 3. 4 глава, unit-тесты (xUnit) + 11 глава (LINQ, до раздела Using LINQ with EF Core) 
     - Задача [FizzBuzz](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/FizzBuzz.md)
     - LeetCode практика 
+        - [Easy](https://leetcode.com/problemset/all/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D)
     - [Принципы unit-тестирования](https://www.youtube.com/watch?v=LkrqqpkKIXE)
 5. 5 глава, основы ООП
 6. 6 глава, продолжение изучения ООП
