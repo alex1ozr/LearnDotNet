@@ -24,14 +24,19 @@ public class ComplexCalculationServiceTests
     {
         // Arrange
         calculatorServiceMock.Setup(x => x.Multiply(100M, 3M))
-            .Returns(new CalculationResult(300M));
+            .Returns(new CalculationResult(300M))
+            .Verifiable();
         calculatorServiceMock.Setup(x => x.Subtract(100M, 3M))
-            .Returns(new CalculationResult(97M));
+            .Returns(new CalculationResult(97M))
+            .Verifiable();
 
         // Act
         var result = sut.PerformComplexCalculation(100M, 3M);
 
         // Assert
         result.Should().Be("Multiplication:300; Difference:97");
+
+        calculatorServiceMock.Verify();
+        calculatorServiceMock.VerifyNoOtherCalls();
     }
 }
