@@ -17,9 +17,10 @@
 12. 10 глава, ORM (EF Core)
 13. [Практическое задание #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
 14. 11 глава, LINQ
-15. 12 глава, многозадачность
-16. 15 глава, ASP.NET
-17. [Практическое задание #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
-18. 16 глава, HttpClient 
-19. [Практическое задание #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
-20. Собеседование - Code Review / Проектирование
+    - [MSDN](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)
+16. 12 глава, многозадачность
+17. 15 глава, ASP.NET
+18. [Практическое задание #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
+19. 16 глава, HttpClient 
+20. [Практическое задание #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
+21. Собеседование - Code Review / Проектирование
