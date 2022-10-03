@@ -1,7 +1,6 @@
 # Learn .NET
 
 ### Learning course for beginners.
-A Learning course for beginners.
 This course contains a base learning program, code samples, design patterns samples, practical real-world tasks, and typical job interview questions.
 
 - [Learning course program](https://github.com/alex1ozr/LearnDotNet/blob/main/LearningCourseProgram.md)
