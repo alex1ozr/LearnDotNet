@@ -1,24 +1,41 @@
-# Программа обучения
-В основе - самостоятельное обучение по книге **Price M.J. - CSharp 10 and .NET 6** и выполнение заданий в конце каждой главы в личном GitHub.
-1. 1-2 главы, знакомство с .NET
-2. 3 глава, операторы и исключения
-3. 4 глава, unit-тесты (xUnit) + 11 глава (LINQ, до раздела Using LINQ with EF Core) 
-    - Задача [FizzBuzz](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/FizzBuzz.md)
-    - LeetCode практика 
-    - [Принципы unit-тестирования](https://www.youtube.com/watch?v=LkrqqpkKIXE)
-5. 5 глава, основы ООП
-6. 6 глава, продолжение изучения ООП
-7. 7 глава, сериализация
-8. 8 глава, структуры данных
-9. 9 глава, сериализация
-10. [Шаблоны проектирования](https://github.com/alex1ozr/LearnDotNet/tree/main/Patterns)
-11. [Практическое задание #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
-12. 10 глава, ORM (EF Core)
-13. [Практическое задание #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
-14. 11 глава, LINQ
-15. 12 глава, многозадачность
-16. 15 глава, ASP.NET
-17. [Практическое задание #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
-18. 16 глава, HttpClient 
-19. [Практическое задание #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
-20. Собеседование - Code Review / Проектирование
+# Learning course program
+This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** completing tasks at the end of each chapter in a private GitHub repository.
+1.  Introduction to .NET
+    - Chapters 1-2
+2. Types, operators & exceptions
+    - Chapter 3
+3. Unit-tests (xUnit) and LINQ
+    - Chapter 4
+    - Chapter 11 (except 'Using LINQ with EF Core' part) 
+    - [Modified FizzBuzz problem](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/FizzBuzz.md)
+    - LeetCode practice 
+    - [Unit-tests principles](https://www.youtube.com/watch?v=LkrqqpkKIXE)
+5. OOP
+    - Chapter 5
+    - LeetCode practice
+6. OOP, Interfaces & Inheritance
+    - Chapter 6
+7. Nuget packages & SOLID
+    - Chapter 7
+8. Common .NET types
+    - Chapter 8
+9. Files, Streams & Serialization
+    - Chapter 9
+10. [Design patterns](https://github.com/alex1ozr/LearnDotNet/tree/main/Patterns)
+11. [Excercise #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
+12. ORM (EF Core)
+    - Chapter 10
+13. [Excercise #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
+14. LINQ
+    - Chapter 11
+15. Multitasking
+    - Chapter 12
+16. ASP.NET
+    - Chapter 13
+17. [Excercise #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
+19. ASP.NET web api & HttpClient
+    - Chapter 16
+19. [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
+20. ASP.NET MVC
+    - Chapters 14-15
+21. Job interview simulation - Code Review / System design

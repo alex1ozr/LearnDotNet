@@ -1,25 +1,25 @@
-# Материалы для обучения
+# Learning materials
 
-## Книги
+## Books
 - Price M.J. - CSharp 10 and .NET 6 (eng)
 - Price M.J. - CSharp 9 and .NET 5 (rus)
 - Тепляков С. - Паттерны проектирования на платформе .NET
-- Jeffrey Richter - CLR via C# 5th edition (для самых отчаянных)
+- Jeffrey Richter - CLR via C# 5th edition (don't try if you're not ready)
 
-## Полезные ссылки
+## Web-resources
 - [C# Style-guide от Microsoft](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
-- [DotnetFiddle - Online-редактор C#](https://dotnetfiddle.net)
-- [Sharplab - Online-редактор C#](https://sharplab.io) для просмотра результирующего кода
+- [DotnetFiddle - Online code playground](https://dotnetfiddle.net)
+- [Sharplab - Online code playground](https://sharplab.io) that shows intermediate steps and compiled code.
 - [CodeWars](https://www.codewars.com/dashboard)
-- [Основы Git](https://learngitbranching.js.org/?locale=ru_RU)
+- [Git basics](https://learngitbranching.js.org/?locale=ru_RU)
 - [Курс от Контура](https://ulearn.me)
 
-## Практические задания для самостоятельной подготовки
+## Practical tasks for self-study
 - [Leetcode](https://leetcode.com/problemset/all/)
-  - [Пример решения задачи](https://github.com/AlekseyRostov/DotNetEducation)
+  - [Probles solution sample](https://github.com/AlekseyRostov/DotNetEducation)
 - [CodeWars](https://www.codewars.com/dashboard)
 
-## Видео
-- [Доклады от сообщества DotNetRu](https://www.youtube.com/DotNetRu)
-- [Доклады от конференции DotNext](https://www.youtube.com/DotNextConf)
-- [Хорошие короткие видео о тонкостях .NET](https://www.youtube.com/c/Elfocrash)
+## Video materials
+- [DotNetRu community](https://www.youtube.com/DotNetRu)
+- [DotNext conference](https://www.youtube.com/DotNextConf)
+- [Good short videos about .NET](https://www.youtube.com/c/Elfocrash)
