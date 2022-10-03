@@ -1,5 +1,4 @@
 # Learn .NET
-___
 
 ### Learning course for beginners.
 A Learning course for beginners.
