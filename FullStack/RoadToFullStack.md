@@ -1,4 +1,4 @@
-# Want to be Full Stack Developer?
+# Want to be a Full Stack Developer?
 
 ## React
 - [Quick course - React & TypeScript](https://www.youtube.com/watch?v=OJ16BaPC6VI)
