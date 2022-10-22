@@ -13,6 +13,7 @@
 - [CodeWars](https://www.codewars.com/dashboard)
 - [Git basics](https://learngitbranching.js.org/?locale=ru_RU)
 - [Курс от Контура](https://ulearn.me)
+- [C# Specification 2022](https://www.ecma-international.org/wp-content/uploads/ECMA-334_6th_edition_june_2022.pdf)
 
 ## Practical tasks for self-study
 - [Leetcode](https://leetcode.com/problemset/all/)
