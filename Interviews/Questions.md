@@ -3,7 +3,8 @@
 ### OOP
 1. [OOP Principles](https://habr.com/ru/company/otus/blog/525336/)
 2. [Class vs Struct](https://c-sharp.pro/классы-или-структуры-в-чем-отличия/)
-3. Inheritance
+3. [Record class vs record struct](https://falberthen.github.io/posts/cs10-records/)
+4. Inheritance
 4. Abstract vs Interface
     - What's new in c#8? [Interface default implementations](https://devblogs.microsoft.com/dotnet/default-implementations-in-interfaces/)
 5. Difference between protected / internal / protected internal.
@@ -80,6 +81,7 @@
     - [Dependency Inversion Principle](https://metanit.com/sharp/patterns/5.5.php) (Принцип инверсии зависимостей)
 3. Inversion of control
 4. [GRASP](https://habr.com/ru/post/92570/)
+5. [Low coupling & high cohesion](https://medium.com/german-gorelkin/low-coupling-high-cohesion-d36369fb1be9)
 5. Static class vs Singleton
 6. Producer/Consumer pattern
 7. DDD/TDD etc.
