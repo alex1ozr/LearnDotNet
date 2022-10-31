@@ -119,7 +119,7 @@
 7. You’ve been investigating slow api, some select queries take too much time, how to investigate why they are slow?
 
 ### ASP.NET Core
-1. Middleware
+1. [Middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
 2. Requests pipeline
 
 ### System Design
