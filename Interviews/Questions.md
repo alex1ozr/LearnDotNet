@@ -27,14 +27,14 @@
 
 ### LINQ
 1. LINQ
-2. Delegates - what it is? Event vs Delegate.
+2. Delegates - what is it? Event vs Delegate.
 3. Anonymous types / methods / Lambdas
 4. Extension methods
 5. Enumerable / IQueryable / IObservable
 
 ### Memory + GC
 1. Difference between values and references (stack vs heap)
-2. Boxing / Unboxing
+2. [Boxing / Unboxing and type casting](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
 3. SOH, LOH, STACK (Small)
 4. Memory leaks in .net. Where? When? Why?
 5. Garbage Collector
