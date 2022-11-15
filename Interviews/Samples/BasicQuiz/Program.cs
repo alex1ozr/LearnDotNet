@@ -45,7 +45,7 @@ static void Exercise2()
 static void Exercise3()
 {
     var count = 0;
-    Enumerable.Repeat(1, 100) // 100 pa 4CO 1
+    Enumerable.Repeat(1, 100)
         .Where((_) => count < 50)
         .Select((x) => count++);
     Console.WriteLine("Exercise 3: " + count);
@@ -71,6 +71,7 @@ static void Exercise4()
 // D: 0 1 2 3 4
 // E: 1 2 3 4 5
 // F: 5 5 5 5 5
+// See also: http://sergeyteplyakov.blogspot.com/2012/04/c-50.html
 static void Exercise5()
 {
     Console.WriteLine("Exercise 5:");
