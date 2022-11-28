@@ -23,6 +23,7 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
     - [Metanit](https://metanit.com/sharp/patterns/5.1.php)
 8. Common .NET types
     - Chapter 8
+    - [Dictionary/HashTable](https://blog.markvincze.com/back-to-basics-dictionary-part-1/)
 9. Files, Streams & Serialization
     - Chapter 9
 10. [Design patterns](https://github.com/alex1ozr/LearnDotNet/tree/main/Patterns)
