@@ -7,7 +7,9 @@
 - Jeffrey Richter - CLR via C# 5th edition (don't try if you're not ready)
 
 ## Web-resources
-- [C# Style-guide от Microsoft](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
+- C# Style-guide from Microsoft:
+  - [Coding conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions?redirectedfrom=MSDN)
+  - [Design guidelines](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines)
 - [DotnetFiddle - Online code playground](https://dotnetfiddle.net)
 - [Sharplab - Online code playground](https://sharplab.io) that shows intermediate steps and compiled code.
 - [CodeWars](https://www.codewars.com/dashboard)
