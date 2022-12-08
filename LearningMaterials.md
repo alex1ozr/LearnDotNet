@@ -21,6 +21,7 @@
 - [Leetcode](https://leetcode.com/problemset/all/)
   - [Probles solution sample](https://github.com/AlekseyRostov/DotNetEducation)
 - [CodeWars](https://www.codewars.com/dashboard)
+- [ProblemBook .NET](https://andreyakinshin.gitbook.io/problembookdotnet/)
 
 ## Video materials
 - [DotNetRu community](https://www.youtube.com/DotNetRu)
