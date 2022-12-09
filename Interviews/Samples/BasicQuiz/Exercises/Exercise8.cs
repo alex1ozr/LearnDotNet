@@ -1,27 +1,21 @@
 namespace Samples.Exercises;
 
-/// <summary>
-/// Struct as property problem.
-/// </summary>
 /// <remarks>Hint: https://stackoverflow.com/questions/18292087/accessing-and-changing-structs-as-property-vs-as-field</remarks>
 internal static class Exercise8
 {
     // A: CTE
     // B: RTE
-    // C: 5
+    // C: 1
     // D: 0
     public static void Execute()
     {
-        var bar = new Bar { Foo = new Foo() };
-        bar.Foo.SetValue(5);
+        var bar = new SomeClass { SomeStruct = new SomeStruct() };
+        bar.SomeStruct.SetValue(1);
 
-        var foo = new Foo();
-        foo.SetValue(20);
-        
-        Console.WriteLine(bar.Foo.Value);
+        Console.WriteLine(bar.SomeStruct.Value);
     }
     
-    public struct Foo
+    public struct SomeStruct
     {
         public int Value;
         
@@ -31,8 +25,8 @@ internal static class Exercise8
         }
     }
     
-    public class Bar
+    public class SomeClass
     {
-        public Foo Foo { get; set; }
+        public SomeStruct SomeStruct { get; set; }
     }
 }
