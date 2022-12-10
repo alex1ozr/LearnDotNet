@@ -1,5 +1,6 @@
 ﻿// Adapter
-// Структурный шаблон проектирования, предназначенный для организации использования функций объекта, недоступного для модификации, через специально созданный интерфейс.
+// Структурный шаблон проектирования, предназначенный для организации использования функций объекта,
+// недоступного для модификации, через специально созданный интерфейс.
 // Позволяет объектам с несовместимыми интерфейсами работать вместе.
 
 var service = new ExternalService();
@@ -8,7 +9,7 @@ IService serviceAdapter = new ServiceAdapter(service);
 serviceAdapter.Execute();
 
 
-internal class ExternalService
+internal sealed class ExternalService
 {
     public void DoSomething() => Console.WriteLine($"{nameof(ExternalService)} performs some action");
 }

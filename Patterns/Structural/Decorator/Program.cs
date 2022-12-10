@@ -13,7 +13,7 @@ internal interface IService
     void DoSomething();
 }
 
-internal class ConcreteService : IService
+internal sealed class ConcreteService : IService
 {
     public void DoSomething()
     {

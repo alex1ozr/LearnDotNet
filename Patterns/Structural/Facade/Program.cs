@@ -1,5 +1,6 @@
 ﻿// Facade
-// Структурный шаблон проектирования, позволяющий скрыть сложность системы путём сведения всех возможных внешних вызовов к одному объекту,
+// Структурный шаблон проектирования, позволяющий скрыть сложность системы путём сведения всех возможных внешних вызовов
+// к одному объекту,
 // делегирующему их соответствующим объектам системы.
 
 var facade = new Facade(new SubsystemA(), new SubsystemB(), new SubsystemC());
@@ -11,6 +12,7 @@ facade.Operation2();
 internal class SubsystemA
 {
     public void ExecuteA1() => Console.WriteLine($"{GetType().Name} executes method 1");
+    
     public void ExecuteA2() => Console.WriteLine($"{GetType().Name} executes method 2");
 }
 
@@ -46,6 +48,7 @@ internal class Facade
         subsystemB.ExecuteB1();
         subsystemC.ExecuteC1();
     }
+    
     public void Operation2()
     {
         Console.WriteLine($"{GetType().Name} is going to perform {nameof(Operation2)}");

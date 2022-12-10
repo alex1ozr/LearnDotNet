@@ -13,7 +13,6 @@ foreach (int request in new[] { 1, 5, 10, 15, 21 })
     handler1.HandleRequest(request);
 }
 
-
 internal abstract class Handler
 {
     protected Handler? successor;

@@ -12,7 +12,7 @@ var human = builder
 
 Console.WriteLine(human);
 
-public class Human
+public sealed class Human
 {
     public int Age { get; set; }
     
@@ -24,7 +24,7 @@ public class Human
         => $"{Name}, age: {Age}, favorite food: {FavoriteFood}";
 }
 
-public class HumanBuilder
+public sealed class HumanBuilder
 {
     private readonly Human human;
     

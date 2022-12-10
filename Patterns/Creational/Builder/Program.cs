@@ -38,7 +38,9 @@ internal abstract class VehicleBuilder
     public Vehicle Vehicle => vehicle;
 
     public abstract void BuildBodyType();
+    
     public abstract void BuildEngine();
+    
     public abstract void BuildDoors();
 }
 
@@ -93,7 +95,9 @@ internal class Vehicle
     private readonly string vehicleType;
 
     public string? BodyType { get; set; }
+    
     public string? Engine { get; set; }
+    
     public int? Doors { get; set; }
 
     public Vehicle(string vehicleType)
