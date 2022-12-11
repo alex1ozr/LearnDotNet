@@ -1,10 +1,10 @@
 # Learning materials
 
 ## Books
-- Price M.J. - CSharp 10 and .NET 6 (eng)
-- Price M.J. - CSharp 9 and .NET 5 (rus)
-- Тепляков С. - Паттерны проектирования на платформе .NET
-- Jeffrey Richter - CLR via C# 5th edition (don't try if you're not ready)
+- [Price M.J. - CSharp 10 and .NET 6](https://www.amazon.com/10-NET-Cross-Platform-Development-websites/dp/1801077363) (eng)
+- [Price M.J. - CSharp 9 and .NET 5](https://www.labirint.ru/books/829838/) (rus)
+- [Тепляков С. - Паттерны проектирования на платформе .NET](https://www.piter.com/product?product_id=39684273)
+- [Jeffrey Richter - CLR via C# 4th edition](https://www.microsoftpressstore.com/store/clr-via-c-sharp-9780735668751) (don't try if you're not ready)
 
 ## Web-resources
 - C# Style-guide from Microsoft:
