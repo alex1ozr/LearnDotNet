@@ -16,6 +16,10 @@
 - [Git basics](https://learngitbranching.js.org/?locale=ru_RU)
 - [Курс от Контура](https://ulearn.me)
 - [C# Specification 2022](https://www.ecma-international.org/wp-content/uploads/ECMA-334_6th_edition_june_2022.pdf)
+- PowerShell guide (rus)
+  - [Part 1](https://habr.com/ru/company/ruvds/blog/487876/), [Part 2](https://habr.com/ru/company/ruvds/blog/490924/)
+  - [Part 3](https://habr.com/ru/company/ruvds/blog/493366/), [Part 4](https://habr.com/ru/company/ruvds/blog/494978/)
+  - [Part 5](https://habr.com/ru/company/ruvds/blog/498478/), [Part 6](https://habr.com/ru/company/ruvds/blog/503818/)
 
 ## Practical tasks for self-study
 - [Leetcode](https://leetcode.com/problemset/all/)
