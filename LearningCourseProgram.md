@@ -11,7 +11,7 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
     - [Modified FizzBuzz problem](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/FizzBuzz.md)
     - LeetCode practice 
        - [Easy one](https://leetcode.com/problemset/all/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkRJRkZJQ1VMVFkifV0%3D)
-         - Develop using xUnit (Fact & Theory) + FluentValidations
+         - Develop using xUnit (Fact & Theory) + FluentAssertions
          - See [Unit-tests reference project](https://github.com/alex1ozr/LearnDotNet/tree/main/CodeSamples/UnitTests)
     - Video: [Unit-tests principles](https://www.youtube.com/watch?v=LkrqqpkKIXE)
     - [101 LINQ samples](https://github.com/dotnet/try-samples/blob/main/101-linq-samples/index.md)
