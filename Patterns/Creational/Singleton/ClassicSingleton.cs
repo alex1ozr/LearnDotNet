@@ -1,6 +1,7 @@
 namespace LearnDotNet.Singleton;
 
-internal class ClassicSingleton
+// TODO Лучше так не писать - работает только в однопоточном приложении
+internal sealed class ClassicSingleton
 {
     private static ClassicSingleton? instance;
 

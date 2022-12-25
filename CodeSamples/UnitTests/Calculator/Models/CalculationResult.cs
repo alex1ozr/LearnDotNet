@@ -1,6 +1,6 @@
 namespace LearnDotNet.UnitTests.Calculator.Models;
 
-internal class CalculationResult
+internal sealed class CalculationResult
 {
     public decimal Value { get; }
     

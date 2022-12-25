@@ -8,7 +8,7 @@ namespace LearnDotNet.UnitTests;
 
 // See also: https://fluentassertions.com/introduction
 
-public class CalculatorTests
+public sealed class CalculatorTests
 {
     private readonly ICalculatorService sut;
 
@@ -87,6 +87,7 @@ public class CalculatorTests
 
     public static IEnumerable<object[]> DivisionTestData()
     {
+        // dividend, divisor, expectedResult
         yield return new object[] { 9M, 3M, 3M };
         yield return new object[] { 120M, 2M, 60M };
     }

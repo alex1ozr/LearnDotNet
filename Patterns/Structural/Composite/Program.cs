@@ -43,15 +43,15 @@ internal class File : Component
     }
 }
 
-internal class Directory :Component
+internal class Directory : Component
 {
     private readonly List<Component> content = new();
- 
+
     public Directory(string name)
         : base(name)
     {
     }
- 
+
     public override void Add(Component component) => content.Add(component);
 
     public override void Remove(Component component) => content.Remove(component);
@@ -63,6 +63,7 @@ internal class Directory :Component
         {
             component.PrintContent();
         }
+
         Console.WriteLine($"End of dir '{Name}'");
     }
 }

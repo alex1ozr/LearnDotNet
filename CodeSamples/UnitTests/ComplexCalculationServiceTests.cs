@@ -7,7 +7,7 @@ using Xunit;
 
 namespace LearnDotNet.UnitTests;
 
-public class ComplexCalculationServiceTests
+public sealed class ComplexCalculationServiceTests
 {
     private readonly IComplexCalculationService sut;
     private readonly Mock<ICalculatorService> calculatorServiceMock;
@@ -23,10 +23,12 @@ public class ComplexCalculationServiceTests
     public void PerformComplexCalculation_ShouldPerform()
     {
         // Arrange
-        calculatorServiceMock.Setup(x => x.Multiply(100M, 3M))
-            .Returns(new CalculationResult(300M))
-            .Verifiable();
-        calculatorServiceMock.Setup(x => x.Subtract(100M, 3M))
+        calculatorServiceMock
+            .Setup(x => x.Multiply(100M, 3M))
+            .Returns(new CalculationResult(300M));
+        
+        calculatorServiceMock
+            .Setup(x => x.Subtract(100M, 3M))
             .Returns(new CalculationResult(97M))
             .Verifiable();
 
@@ -36,6 +38,7 @@ public class ComplexCalculationServiceTests
         // Assert
         result.Should().Be("Multiplication:300; Difference:97");
 
+        calculatorServiceMock.Verify(x=> x.Multiply(100M, 3M), Times.Once);
         calculatorServiceMock.Verify();
         calculatorServiceMock.VerifyNoOtherCalls();
     }

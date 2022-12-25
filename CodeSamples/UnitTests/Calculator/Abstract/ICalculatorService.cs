@@ -10,7 +10,7 @@ internal interface ICalculatorService
     
     CalculationResult Multiply(decimal multiplicand, decimal multiplier);
     
-    /// <exception cref="DivideByZeroException">...</exception>
+    /// <exception cref="DivideByZeroException">Division by zero</exception>
     CalculationResult Divide(decimal dividend, decimal divisor);
 
     CalculationResult Modulo(int dividend, int divisor);
