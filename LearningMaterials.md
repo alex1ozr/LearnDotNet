@@ -20,6 +20,8 @@
   - [Part 1](https://habr.com/ru/company/ruvds/blog/487876/), [Part 2](https://habr.com/ru/company/ruvds/blog/490924/)
   - [Part 3](https://habr.com/ru/company/ruvds/blog/493366/), [Part 4](https://habr.com/ru/company/ruvds/blog/494978/)
   - [Part 5](https://habr.com/ru/company/ruvds/blog/498478/), [Part 6](https://habr.com/ru/company/ruvds/blog/503818/)
+- [Async Guidance by David Fowler](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
+- [Performance best practices by Kevin Gosse](https://minidump.net/performance-best-practices-in-c-b85a47bdd93a)
 
 ## Practical tasks for self-study
 - [Leetcode](https://leetcode.com/problemset/all/)

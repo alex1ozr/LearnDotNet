@@ -63,6 +63,8 @@
 1. What it is? When it is used?
 2. Difference from multithreading
 3. Why is it prohibited to await in lock/Singleton?
+4. async await best practices
+   - [David Fowler](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
 
 ### Data structures and Algorithms
 1. Dictionary and HashTable - what for?
