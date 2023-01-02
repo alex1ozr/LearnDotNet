@@ -1,5 +1,8 @@
-﻿// Observer
-// Реализует у класса механизм, который позволяет объекту этого класса получать оповещения об изменении состояния других объектов и тем самым наблюдать за ними.
+﻿// Observer (Наблюдатель)
+// Реализует у класса механизм, который позволяет объекту этого класса получать оповещения об изменении состояния
+// других объектов и тем самым наблюдать за ними.
+
+// Пример: онлайн-чат и его посетители.
 
 var footballGame = new FootballGame();
 var team1Fan = new Team1Fan("Boris", footballGame);
@@ -78,13 +81,13 @@ internal class FootballGame : IFootballGame
     }
 }
  
-internal class MatchStats
+internal sealed class MatchStats
 {
     public int Team1Score { get; set; }
     public int Team2Score { get; set; }
 }
 
-internal class Team1Fan : IObserver
+internal sealed class Team1Fan : IObserver
 {
     private IFootballGame? game;
 

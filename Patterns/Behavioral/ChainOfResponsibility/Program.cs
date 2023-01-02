@@ -1,10 +1,11 @@
 ﻿// Chain of responsibility
 // Поведенческий шаблон проектирования, позволяющий избежать привязки отправителя запроса к его получателю,
-// разрешая обработать запрос нескольким объектам. Связывает объекты-получатели в цепочку и передает запрос следующему по цепочке обработчику.
+// разрешая обработать запрос нескольким объектам.
+// Связывает объекты-получатели в цепочку и передает запрос следующему по цепочке обработчику.
 
-var handler1 = new LessThanTenHandler();
-var handler2 = new BetweenTenAndTwentyHandler();
-var handler3 = new MoreThanTwentyHandler();
+var handler1 = new LessThanTenHandler(); // < 10
+var handler2 = new BetweenTenAndTwentyHandler(); // 10..20
+var handler3 = new MoreThanOrEqualTwentyHandler(); // 21..
 handler1.SetSuccessor(handler2);
 handler2.SetSuccessor(handler3);
 
@@ -55,13 +56,13 @@ internal class BetweenTenAndTwentyHandler : Handler
     }
 }
 
-internal class MoreThanTwentyHandler : Handler
+internal class MoreThanOrEqualTwentyHandler : Handler
 {
     public override void HandleRequest(int request)
     {
         if (request >= 20)
         {
-            Console.WriteLine($"{nameof(MoreThanTwentyHandler)} handled the request {request}");
+            Console.WriteLine($"{nameof(MoreThanOrEqualTwentyHandler)} handled the request {request}");
         }
         else if (successor is not null)
         {

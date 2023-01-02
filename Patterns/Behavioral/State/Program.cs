@@ -1,5 +1,6 @@
 ﻿// State
-// Поведенческий шаблон проектирования, позволяющий объекту изменять свое поведение в зависимости от текущего внутреннего состояния состояния.
+// Поведенческий шаблон проектирования, позволяющий объекту изменять свое поведение в зависимости от текущего
+// внутреннего состояния состояния.
 
 var printer = new Printer(new ReadyForPrintState());
 printer.Cancel();
@@ -62,6 +63,7 @@ internal class PrintingInProgressState: IPrinterState
     public void Handle(Printer printer)
     {
         Console.WriteLine("Printer is printing now");
+        printer.State = new PrintingFinishedState();
     }
 
     public void Cancel(Printer printer)

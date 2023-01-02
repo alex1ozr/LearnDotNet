@@ -15,7 +15,7 @@ concreteColleague2.SendMessage("Mee too");
 
 internal abstract class Mediator
 {
-    public abstract void Send(string msg, Colleague colleague);
+    public abstract void Send(string msg, Colleague from);
 }
 
 internal abstract class Colleague
@@ -64,13 +64,13 @@ internal class ConcreteMediator : Mediator
     public Colleague? Colleague1 { get; set; }
     public Colleague? Colleague2 { get; set; }
 
-    public override void Send(string msg, Colleague colleague)
+    public override void Send(string msg, Colleague from)
     {
-        if (Colleague1 == colleague)
+        if (Colleague1 == from)
         {
             Colleague2?.Notify(msg);
         }
-        else if (Colleague2 == colleague)
+        else if (Colleague2 == from)
         {
             Colleague1?.Notify(msg);
         }
