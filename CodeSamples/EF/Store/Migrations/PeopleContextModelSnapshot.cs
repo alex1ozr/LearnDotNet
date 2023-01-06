@@ -104,7 +104,7 @@ namespace LearnDotNet.Store.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("People");
+                    b.ToTable("People", (string)null);
                 });
 
             modelBuilder.Entity("LearnDotNet.Store.Entities.Document", b =>

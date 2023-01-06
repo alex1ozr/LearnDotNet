@@ -10,6 +10,8 @@ public sealed class PersonConfiguration : IEntityTypeConfiguration<Person>
 
     public void Configure(EntityTypeBuilder<Person> builder)
     {
+        builder.ToTable("People"); // Not necessary actually due to embedded Humanizer
+        
         builder.ConfigureDbEntity();
 
         builder.Property(x => x.FirstName)

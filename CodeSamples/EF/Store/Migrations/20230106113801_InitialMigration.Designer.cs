@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LearnDotNet.Store.Migrations
 {
     [DbContext(typeof(PeopleContext))]
-    [Migration("20230106083948_InitialMigration")]
+    [Migration("20230106113801_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -106,7 +106,7 @@ namespace LearnDotNet.Store.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("People");
+                    b.ToTable("People", (string)null);
                 });
 
             modelBuilder.Entity("LearnDotNet.Store.Entities.Document", b =>

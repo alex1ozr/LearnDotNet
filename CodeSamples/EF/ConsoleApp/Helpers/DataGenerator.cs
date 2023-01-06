@@ -14,13 +14,17 @@ internal static class DataGenerator
                 f.Name.LastName(),
                 DateOnly.FromDateTime(f.Person.DateOfBirth)
             )
-        );
+        )
+        .RuleFor(p => p.DateOfDeath, (f, p) =>
+            f.Random.Bool()
+                ? f.Date.PastDateOnly(1)
+                : null);
 
     private static readonly Faker<DocumentType> DocumentTypeGenerator = new Faker<DocumentType>()
         .CustomInstantiator(f =>
             new DocumentType(
                 Guid.NewGuid(),
-                f.Commerce.ProductName()
+                $"{f.Commerce.ProductName()}_{f.UniqueIndex}"
             )
         );
 
