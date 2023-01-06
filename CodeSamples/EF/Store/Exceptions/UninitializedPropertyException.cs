@@ -3,7 +3,7 @@ namespace LearnDotNet.Store.Exceptions;
 /// <summary>
 /// Property isn't initialized
 /// </summary>
-public class UninitializedPropertyException: InvalidOperationException
+public sealed class UninitializedPropertyException: InvalidOperationException
 {
     /// <summary>
     /// .ctor

@@ -49,8 +49,7 @@ namespace LearnDotNet.Store.Migrations
                     DateOfExpiration = table.Column<DateOnly>(type: "TEXT", nullable: true),
                     TypeId = table.Column<Guid>(type: "TEXT", nullable: false),
                     PersonId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    DeletedAt = table.Column<DateTimeOffset>(type: "TEXT", nullable: true),
-                    PersonId1 = table.Column<Guid>(type: "TEXT", nullable: true)
+                    DeletedAt = table.Column<DateTimeOffset>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -67,11 +66,6 @@ namespace LearnDotNet.Store.Migrations
                         principalTable: "People",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Documents_People_PersonId1",
-                        column: x => x.PersonId1,
-                        principalTable: "People",
-                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
@@ -80,14 +74,20 @@ namespace LearnDotNet.Store.Migrations
                 column: "PersonId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Documents_PersonId1",
+                name: "IX_Documents_Series",
                 table: "Documents",
-                column: "PersonId1");
+                column: "Series");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Documents_TypeId",
                 table: "Documents",
                 column: "TypeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_DocumentTypes_Name",
+                table: "DocumentTypes",
+                column: "Name",
+                unique: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

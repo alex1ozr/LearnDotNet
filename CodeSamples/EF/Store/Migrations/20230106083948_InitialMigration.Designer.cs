@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LearnDotNet.Store.Migrations
 {
     [DbContext(typeof(PeopleContext))]
-    [Migration("20230105185651_InitialMigration")]
+    [Migration("20230106083948_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -22,7 +22,6 @@ namespace LearnDotNet.Store.Migrations
             modelBuilder.Entity("LearnDotNet.Store.Entities.Document", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
                     b.Property<DateOnly?>("DateOfExpiration")
@@ -42,9 +41,6 @@ namespace LearnDotNet.Store.Migrations
                     b.Property<Guid>("PersonId")
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid?>("PersonId1")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Series")
                         .HasMaxLength(20)
                         .HasColumnType("TEXT");
@@ -56,7 +52,7 @@ namespace LearnDotNet.Store.Migrations
 
                     b.HasIndex("PersonId");
 
-                    b.HasIndex("PersonId1");
+                    b.HasIndex("Series");
 
                     b.HasIndex("TypeId");
 
@@ -66,7 +62,6 @@ namespace LearnDotNet.Store.Migrations
             modelBuilder.Entity("LearnDotNet.Store.Entities.DocumentType", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
                     b.Property<DateTimeOffset?>("DeletedAt")
@@ -79,13 +74,15 @@ namespace LearnDotNet.Store.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
                     b.ToTable("DocumentTypes");
                 });
 
             modelBuilder.Entity("LearnDotNet.Store.Entities.Person", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
                     b.Property<DateOnly>("DateOfBirth")
@@ -115,14 +112,10 @@ namespace LearnDotNet.Store.Migrations
             modelBuilder.Entity("LearnDotNet.Store.Entities.Document", b =>
                 {
                     b.HasOne("LearnDotNet.Store.Entities.Person", "Person")
-                        .WithMany()
+                        .WithMany("Documents")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("LearnDotNet.Store.Entities.Person", null)
-                        .WithMany("Documents")
-                        .HasForeignKey("PersonId1");
 
                     b.HasOne("LearnDotNet.Store.Entities.DocumentType", "Type")
                         .WithMany()

@@ -1,5 +1,6 @@
 using LearnDotNet.Store.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace LearnDotNet.Store;
 
@@ -19,7 +20,7 @@ public sealed class PeopleContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
         => options.UseSqlite($"Data Source=../{DbFileName}")
-            .LogTo(Console.WriteLine);
+            .LogTo(Console.WriteLine, LogLevel.Information);
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

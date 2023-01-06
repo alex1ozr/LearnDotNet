@@ -11,12 +11,14 @@ public sealed class Document: IDbEntity, IDeletableEntity
     public Document(
         Guid id, 
         Guid typeId,
+        Guid personId,
         string series, 
         string number, 
         DateOnly dateOfIssue)
     {
         Id = id;
         TypeId = typeId;
+        PersonId = personId;
         Series = series;
         Number = number;
         DateOfIssue = dateOfIssue;

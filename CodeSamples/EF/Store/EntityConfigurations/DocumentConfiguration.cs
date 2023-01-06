@@ -5,7 +5,7 @@ using static LearnDotNet.Store.EntityConfigurations.ConfigurationExtensions;
 
 namespace LearnDotNet.Store.EntityConfigurations;
 
-public class DocumentConfiguration : IEntityTypeConfiguration<Document>
+public sealed class DocumentConfiguration : IEntityTypeConfiguration<Document>
 {
     private const int SeriesLength = 20;
     private const int NumberLength = 255;
@@ -14,21 +14,23 @@ public class DocumentConfiguration : IEntityTypeConfiguration<Document>
     {
         builder.ConfigureDbEntity();
 
-        builder.Property(p => p.Series)
+        builder.Property(x => x.Series)
             .HasMaxLength(SeriesLength);
 
-        builder.Property(p => p.Number)
+        builder.Property(x => x.Number)
             .HasMaxLength(NumberLength)
             .IsRequired();
 
-        builder.HasOne(p => p.Type)
+        builder.HasOne(x => x.Type)
             .WithMany()
-            .HasForeignKey(p => p.TypeId)
+            .HasForeignKey(x => x.TypeId)
             .OnDelete(DeleteBehavior.Restrict);
-        
-        builder.HasOne(p => p.Person)
-            .WithMany()
-            .HasForeignKey(p => p.PersonId)
+
+        builder.HasOne(x => x.Person)
+            .WithMany(x => x.Documents)
+            .HasForeignKey(x => x.PersonId)
             .OnDelete(DeleteBehavior.Restrict);
+
+        builder.HasIndex(x => x.Series);
     }
 }

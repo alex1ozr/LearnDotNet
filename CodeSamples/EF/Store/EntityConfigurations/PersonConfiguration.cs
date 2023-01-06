@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace LearnDotNet.Store.EntityConfigurations;
 
-public class PersonConfiguration : IEntityTypeConfiguration<Person>
+public sealed class PersonConfiguration : IEntityTypeConfiguration<Person>
 {
     private const int NameLength = 255;
 
@@ -12,11 +12,11 @@ public class PersonConfiguration : IEntityTypeConfiguration<Person>
     {
         builder.ConfigureDbEntity();
 
-        builder.Property(p => p.FirstName)
+        builder.Property(x => x.FirstName)
             .HasMaxLength(NameLength)
             .IsRequired();
 
-        builder.Property(p => p.LastName)
+        builder.Property(x => x.LastName)
             .HasMaxLength(NameLength)
             .IsRequired();
     }
