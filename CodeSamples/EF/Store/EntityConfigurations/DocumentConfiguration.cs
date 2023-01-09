@@ -1,7 +1,6 @@
 using LearnDotNet.Store.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using static LearnDotNet.Store.EntityConfigurations.ConfigurationExtensions;
 
 namespace LearnDotNet.Store.EntityConfigurations;
 
