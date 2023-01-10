@@ -33,6 +33,10 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
 11. [Excercise #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
 12. ORM (EF Core)
     - Chapter 10
+    - [Metanit](https://metanit.com/sharp/efcore/)
+    - [MSDN](https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli)
+    - [EF Core & Nullable Reference Types](https://learn.microsoft.com/en-us/ef/core/miscellaneous/nullable-reference-types)
+    - [EF Core sample](https://github.com/alex1ozr/LearnDotNet/tree/main/CodeSamples/EF)
 13. [Excercise #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
 14. LINQ
     - Chapter 11
