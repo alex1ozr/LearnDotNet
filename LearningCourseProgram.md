@@ -1,6 +1,6 @@
 # Learning course program
 This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** completing tasks at the end of each chapter in a private GitHub repository.
-1.  Introduction to .NET
+1. Introduction to .NET
     - Chapters 1-2
 2. Types, operators & exceptions
     - Chapter 3
@@ -15,42 +15,44 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
          - See [Unit-tests reference project](https://github.com/alex1ozr/LearnDotNet/tree/main/CodeSamples/UnitTests)
     - Video: [Unit-tests principles](https://www.youtube.com/watch?v=LkrqqpkKIXE)
     - [101 LINQ samples](https://github.com/dotnet/try-samples/blob/main/101-linq-samples/index.md)
-5. OOP
+4. OOP
     - Chapter 5
     - LeetCode practice
-6. OOP, Interfaces & Inheritance
+5. OOP, Interfaces & Inheritance
     - Chapter 6
-7. Nuget packages & SOLID
+6. Nuget packages & SOLID
     - Chapter 7
     - [Metanit](https://metanit.com/sharp/patterns/5.1.php)
-8. Common .NET types
+7. Common .NET types
     - Chapter 8
     - [Dictionary/HashTable](https://blog.markvincze.com/back-to-basics-dictionary-part-1/)
-9. Files, Streams & Serialization
+8. Files, Streams & Serialization
     - Chapter 9
-10. [Design patterns](https://github.com/alex1ozr/LearnDotNet/tree/main/Patterns)
-    - [Metanit](https://metanit.com/sharp/patterns/1.1.php)
-11. [Excercise #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
-12. ORM (EF Core)
+9. [Design patterns](https://github.com/alex1ozr/LearnDotNet/tree/main/Patterns)
+   - [Metanit](https://metanit.com/sharp/patterns/1.1.php)
+10. [Excercise #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
+11. ORM (EF Core)
     - Chapter 10
     - [Metanit](https://metanit.com/sharp/efcore/)
     - [MSDN](https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli)
     - [EF Core & Nullable Reference Types](https://learn.microsoft.com/en-us/ef/core/miscellaneous/nullable-reference-types)
     - [EF Core sample](https://github.com/alex1ozr/LearnDotNet/tree/main/CodeSamples/EF)
-13. [Excercise #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
-14. LINQ
+12. LINQ
     - Chapter 11
     - [MSDN](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)
     - [LINQ pipeline](https://www.red-gate.com/simple-talk/development/dotnet-development/linq-secrets-revealed-chaining-and-debugging/#fourth)
-15. Multitasking
+13. [Excercise #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
+    - [Automapper](https://www.youtube.com/watch?v=3Rx85qlgjS4)
+    - [SQLite tutorial](https://metanit.com/sql/sqlite/)
+14. Multitasking
     - Chapter 12
-16. ASP.NET
+15. ASP.NET
     - Chapter 13
     - [Metanit](https://metanit.com/sharp/aspnet6/)
-17. [Excercise #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
-19. ASP.NET web api & HttpClient
+16. [Excercise #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
+17. ASP.NET web api & HttpClient
     - Chapter 16
-19. [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
-20. ASP.NET MVC
+18. [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
+19. ASP.NET MVC
     - Chapters 14-15
-21. Job interview simulation - Code Review / System design
+20. Job interview simulation - Code Review / System design
