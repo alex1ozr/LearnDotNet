@@ -45,7 +45,8 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
     - [Automapper](https://www.youtube.com/watch?v=3Rx85qlgjS4)
     - [SQLite tutorial](https://metanit.com/sql/sqlite/)
 14. Multitasking
-    - Chapter 12
+    - [Metanit](https://metanit.com/sharp/tutorial/13.3.php)
+    - [Task.Run vs Task.Factory.StartNew](https://devblogs.microsoft.com/pfxteam/task-run-vs-task-factory-startnew/)
 15. ASP.NET
     - Chapter 13
     - [Metanit](https://metanit.com/sharp/aspnet6/)
