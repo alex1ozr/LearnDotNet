@@ -10,9 +10,9 @@ EF Core poject with entities & migrations
 dotnet tool install --global dotnet-ef
 ```
 
-### Add new migration
+### Add new migrations
 ```
-dotnet ef migrations add <migration name> --project EF/ConsoleApp --context PeopleContext
+dotnet ef migrations add <migration name> --startup-project EF/ConsoleApp --project EF/Store --context PeopleContext
 ```
 
 ### Update database
