@@ -53,6 +53,8 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
 16. [Excercise #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
 17. ASP.NET web api & HttpClient
     - Chapter 16
+    - Docker
+        - [Habr](https://habr.com/ru/company/ruvds/blog/438796/)
 18. [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
 19. ASP.NET MVC
     - Chapters 14-15
