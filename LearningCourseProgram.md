@@ -55,7 +55,8 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
     - Chapter 16
     - Docker
         - Habr: [1](https://habr.com/ru/company/ruvds/blog/438796/), [2](https://habr.com/ru/post/439978/), [3](https://habr.com/ru/company/ruvds/blog/439980/), [4](https://habr.com/ru/company/ruvds/blog/440658/), [5](https://habr.com/ru/company/ruvds/blog/440660/), [6](https://habr.com/ru/post/441574/)
+        - [What's Docker - Video](https://www.youtube.com/watch?v=TJg7QpqCH70)
 18. [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
-19. ASP.NET MVC
+20. ASP.NET MVC
     - Chapters 14-15
-20. Job interview simulation - Code Review / System design
+21. Job interview simulation - Code Review / System design
