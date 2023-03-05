@@ -1,6 +1,6 @@
-namespace WebAppSample.Services;
+namespace LearnDotNet.WebAppSample.Services;
 
-internal class SampleService : ISampleService
+internal sealed class SampleService : ISampleService
 {
     public string GetValue => "blahblah";
 }

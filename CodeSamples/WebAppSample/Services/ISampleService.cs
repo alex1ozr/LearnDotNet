@@ -1,4 +1,4 @@
-namespace WebAppSample.Services;
+namespace LearnDotNet.WebAppSample.Services;
 
 public interface ISampleService: IService
 {

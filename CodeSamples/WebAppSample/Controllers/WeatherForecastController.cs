@@ -1,7 +1,6 @@
-using LearnDotNet.WebAppSample.Validators;
+using LearnDotNet.WebAppSample.Services;
 using Microsoft.AspNetCore.Mvc;
 using WebAppSample;
-using WebAppSample.Services;
 
 namespace LearnDotNet.WebAppSample.Controllers;
 

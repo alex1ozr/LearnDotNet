@@ -1,7 +1,7 @@
 using FluentValidation;
 using Microsoft.AspNetCore.HttpLogging;
-using WebAppSample.Services;
 using FluentValidation.AspNetCore;
+using LearnDotNet.WebAppSample.Services;
 using LearnDotNet.WebAppSample.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
