@@ -1,3 +1,4 @@
+using LearnDotNet.WebAppSample.Validators;
 using Microsoft.AspNetCore.Mvc;
 using WebAppSample;
 using WebAppSample.Services;
@@ -98,5 +99,7 @@ public class WeatherForecastController : ControllerBase
     public class MyClass
     {
         public string? Value { get; set; }
+        
+        public int IntValue { get; set; }
     }
 }
