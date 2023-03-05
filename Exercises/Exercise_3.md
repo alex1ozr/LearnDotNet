@@ -36,7 +36,7 @@
   - Получение списка паллет с пагинацией (сколько паллет получить + сколько пропустить)
 - Внедрить следующие технологии:
   - Automapper
-  - FluentValidation
+  - [FluentValidation](https://github.com/FluentValidation/FluentValidation)
   - EF Core 6 с хранением данных в SQLite
   - Swagger
   - DI (ServiceCollection / Autofac / любой контейнер на ваш выбор)
