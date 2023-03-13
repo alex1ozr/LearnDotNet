@@ -62,13 +62,13 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
         - [What's Docker - Video](https://www.youtube.com/watch?v=TJg7QpqCH70)
     - Configuration
       - [MSDN](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0)
-17. ASP.NET web api & HttpClient
+18. ASP.NET web api & HttpClient
     - Chapter 16
     - End2End tests (TestContainers)
       - [GitHub](https://github.com/testcontainers/testcontainers-dotnet)
       - [Video](https://www.youtube.com/watch?v=E4TeWBFzcCw)
       - [Sample](https://github.com/alex1ozr/DockerTests)
-18. [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
+19. [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
     - HttpClient generation
 20. ASP.NET MVC
     - Chapters 14-15
