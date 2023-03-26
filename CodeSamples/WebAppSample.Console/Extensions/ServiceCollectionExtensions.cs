@@ -12,7 +12,10 @@ public static class ServiceCollectionExtensions
         serviceCollection.AddHttpClient<ForecastClient>((provider,client) =>
         {
             var config = provider.GetRequiredService<IConfiguration>();
-            client.BaseAddress = config.GetSection("WeatherForecast:HostUri").Get<Uri>();
+            var options = new WeatherForecastClientOptions();
+            config.GetSection(WeatherForecastClientOptions.WeatherForecast).Bind(options);
+            
+            client.BaseAddress = options.HostUri;
         });
 
         return serviceCollection;
