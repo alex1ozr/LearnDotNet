@@ -78,7 +78,7 @@ public class WeatherForecastController : ControllerBase
         Console.WriteLine(_sampleService.GetValue);
         // do..
 
-        return Ok(Array.Empty<int>());
+        return Ok(new[] { id });
     }
     
     [HttpDelete("cities/{id}")]
