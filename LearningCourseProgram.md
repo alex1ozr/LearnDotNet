@@ -27,7 +27,7 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
     - Chapter 8
     - [Dictionary/HashTable](https://blog.markvincze.com/back-to-basics-dictionary-part-1/)
 8. Files, Streams & Serialization
-    - Chapter 9
+   - Chapter 9
 9. [Design patterns](https://github.com/alex1ozr/LearnDotNet/tree/main/Patterns)
    - [Metanit](https://metanit.com/sharp/patterns/1.1.php)
 10. [Excercise #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
@@ -50,26 +50,33 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
 15. ASP.NET
     - Chapter 13
     - [Metanit](https://metanit.com/sharp/aspnet6/)
+16. ASP.NET + DI
     - Dependency Injection (ServiceCollection)
       - [MSDN](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0)
-16. [Excercise #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
-17. ASP.NET
+      - [Exercise #3](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_3.md)
+17. ASP.NET + Autofac
     - Dependency Injection (Autofac)
       - [GitHub](https://github.com/autofac/Autofac)
       - [Documentation](https://autofac.readthedocs.io/en/latest/getting-started/index.html)
+18. ASP.NET + Docker
     - Docker
         - Habr: [1](https://habr.com/ru/company/ruvds/blog/438796/), [2](https://habr.com/ru/post/439978/), [3](https://habr.com/ru/company/ruvds/blog/439980/), [4](https://habr.com/ru/company/ruvds/blog/440658/), [5](https://habr.com/ru/company/ruvds/blog/440660/), [6](https://habr.com/ru/post/441574/)
         - [What's Docker - Video](https://www.youtube.com/watch?v=TJg7QpqCH70)
-    - Configuration
-      - [MSDN](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0)
-18. ASP.NET web api & HttpClient
+19. ASP.NET web api & HttpClient + Configuration
     - Chapter 16
+    - Configuration
+        - [MSDN](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0)
+    - [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
+20. ASP.NET + E2E tests
+    - HttpClient generation (NSwag)
+      - [GitHub](https://github.com/RicoSuter/NSwag/wiki/CommandLine)
+      - [CLI sample](https://github.com/alex1ozr/NumbersIntoWords/blob/main/src/Api.Client/Generator/GenerateClient.ps1)
     - End2End tests (TestContainers)
       - [GitHub](https://github.com/testcontainers/testcontainers-dotnet)
       - [Video](https://www.youtube.com/watch?v=E4TeWBFzcCw)
       - [Sample](https://github.com/alex1ozr/DockerTests)
-19. [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
-    - HttpClient generation
-20. ASP.NET MVC
+    - Documentation (Markdown)
+      - [Article](https://highload.today/markdown/)
+21. ASP.NET MVC (Optional)
     - Chapters 14-15
-21. Job interview simulation - Code Review / System design
+22. Job interview simulation - Code Review / System design
