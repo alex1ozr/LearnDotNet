@@ -16,7 +16,6 @@ public class ForecastClient : IForecastClient
         var result = await _client.PostAsJsonAsync(requestUri: $"/api/v1/weather-forecasts/cities/{id}", 
             new { Value = "tets", IntValue = id}, cancellationToken: ct);
 
-
         return await result.Content.ReadFromJsonAsync<int[]>(cancellationToken: ct);
     }
 }

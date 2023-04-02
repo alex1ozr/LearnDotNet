@@ -21,4 +21,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Clients\Generator" />
+    </ItemGroup>
+
 </Project>
