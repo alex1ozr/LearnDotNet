@@ -1,4 +1,4 @@
-namespace LearnDotNet.WebAppSample.Console.Clients;
+namespace LearnDotNet.WebAppSample.Client;
 
 public sealed class WeatherForecastClientOptions
 {

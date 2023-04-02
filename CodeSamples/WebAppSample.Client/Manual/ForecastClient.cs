@@ -1,6 +1,6 @@
 using System.Net.Http.Json;
 
-namespace LearnDotNet.WebAppSample.Console.Clients;
+namespace LearnDotNet.WebAppSample.Client.Manual;
 
 public class ForecastClient : IForecastClient
 {

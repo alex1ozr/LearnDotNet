@@ -1,4 +1,4 @@
-namespace LearnDotNet.WebAppSample.Console.Clients;
+namespace LearnDotNet.WebAppSample.Client.Manual;
 
 public interface IForecastClient
 {
