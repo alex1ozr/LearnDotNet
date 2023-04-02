@@ -69,7 +69,7 @@ public class WeatherForecastController : ControllerBase
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<int>))]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status409Conflict)]
-    public IActionResult SaveData([FromRoute] int id, [FromBody] MyClass data)
+    public IActionResult SaveWeatherForecast([FromRoute] int id, [FromBody] MyClass data)
     {
         if (id < 100)
         {
