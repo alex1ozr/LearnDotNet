@@ -8,10 +8,9 @@ namespace LearnDotNet.WebAppSample.Client.Extensions;
 
 public static class ServiceCollectionExtensions
 {
-    public static ServiceCollection AddGeneratedWeatherForecastClient(this ServiceCollection serviceCollection)
+    public static ServiceCollection AddGeneratedForecastClient(this ServiceCollection serviceCollection)
     {
-        serviceCollection.AddSingleton<IWeatherForecastClient, WeatherForecastClient>();
-        serviceCollection.AddHttpClient<WeatherForecastClient>((provider,client) =>
+        serviceCollection.AddHttpClient<IWeatherForecastClient, WeatherForecastClient>((provider,client) =>
         {
             var config = provider.GetRequiredService<IConfiguration>();
 
@@ -25,10 +24,9 @@ public static class ServiceCollectionExtensions
         return serviceCollection;
     }
     
-    public static ServiceCollection AddWeatherForecastClient(this ServiceCollection serviceCollection)
+    public static ServiceCollection AddManualForecastClient(this ServiceCollection serviceCollection)
     {
-        serviceCollection.AddSingleton<IForecastClient, ForecastClient>();
-        serviceCollection.AddHttpClient<ForecastClient>((provider,client) =>
+        serviceCollection.AddHttpClient<IManualForecastClient, ManualForecastClient>((provider,client) =>
         {
             var config = provider.GetRequiredService<IConfiguration>();
 

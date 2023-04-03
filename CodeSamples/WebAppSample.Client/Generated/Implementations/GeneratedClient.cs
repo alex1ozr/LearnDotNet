@@ -79,7 +79,7 @@ namespace LearnDotNet.WebAppSample.Client.Generated.Implementations
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NSwag", "13.18.2.0 (NJsonSchema v10.8.0.0 (Newtonsoft.Json v13.0.0.0))")]
-    public partial class WeatherForecastClient : IWeatherForecastClient
+    internal partial class WeatherForecastClient : IWeatherForecastClient
     {
         private string _baseUrl = "";
         private System.Net.Http.HttpClient _httpClient;

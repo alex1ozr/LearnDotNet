@@ -1,6 +1,6 @@
 $ScriptDir = Split-Path $script:MyInvocation.MyCommand.Path
 $GeneratedClientDir = Resolve-Path "$ScriptDir/../Implementations"
-$GeneratedClientFilePath = "$GeneratedClientDir/GeneratedClient.cs"
+$GeneratedClientFilePath = "$GeneratedClientDir/GeneratedForecastClient.cs"
 $Namespace = "LearnDotNet.WebAppSample.Client.Generated.Implementations"
 
 if (Test-Path $GeneratedClientFilePath) {

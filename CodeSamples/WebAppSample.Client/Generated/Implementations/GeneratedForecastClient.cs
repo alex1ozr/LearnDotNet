@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace LearnDotNet.WebAppSample.Client.Generated.Implementations;
 
-public partial class WeatherForecastClient
+internal partial class WeatherForecastClient
 {
     [ActivatorUtilitiesConstructor]
     public WeatherForecastClient(

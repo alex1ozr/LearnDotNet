@@ -13,7 +13,7 @@ public sealed class TestApplication : WebApplicationFactory<IApiMarkerInterface>
         new PostgreSqlBuilder()
             .WithDatabase("TestDb")
             .WithUsername("user")
-            .WithPassword("password").Build();
+            .WithPassword("password").Build(); // just for demonstration purposes
     
     private DbConnection? _dbConnection;
     private HttpClient? _httpClient;
