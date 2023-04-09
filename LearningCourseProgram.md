@@ -71,7 +71,7 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
         - [MSDN: Routing and Action Selection](https://learn.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/routing-and-action-selection)
         - [MSDN: Attribute Routing](https://learn.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2)
     - Parameter binding in ASP.NET
-        - [MSDN](https://learn.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api#using-frombody)
+        - [MSDN: Model Binding](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-3.1)
     - [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
 20. ASP.NET + E2E tests
     - HttpClient generation (NSwag)
