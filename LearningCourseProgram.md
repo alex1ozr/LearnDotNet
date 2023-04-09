@@ -66,6 +66,12 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
     - Chapter 16
     - Configuration
         - [MSDN](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0)
+    - Routing
+        - [MSDN: Web API routing without MVC](https://learn.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api)
+        - [MSDN: Routing and Action Selection](https://learn.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/routing-and-action-selection)
+        - [MSDN: Attribute Routing](https://learn.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2)
+    - Parameter binding in ASP.NET
+        - [MSDN](https://learn.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api#using-frombody)
     - [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
 20. ASP.NET + E2E tests
     - HttpClient generation (NSwag)
