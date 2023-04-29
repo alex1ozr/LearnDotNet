@@ -1,4 +1,4 @@
-# Code samples
+# Live coding & code samples
 These are just samples of the code written during lessons.
 
 ### EF Core
