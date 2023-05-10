@@ -5,7 +5,7 @@
 <details>
     <summary>English version</summary>
 
-- Develop ASP .NET Web API application (.NET 6) with specified functionality:
+- Develop ASP .NET Web API application (.NET 6/7) with specified functionality:
   - Create / change / delete pallets
   - Add/Change/Remove boxes from a specific pallet
   - Getting a pallet by ID
@@ -13,7 +13,7 @@
 - Implement the following technologies:
   - Automapper
   - FluentValidation
-  - EF Core 6 over SQLite
+  - EF Core 6+ over SQLite
   - Swagger
   - DI (ServiceCollection / Autofac / any container of your choice)
 - Divide the solution into projects corresponding to layers:
@@ -29,7 +29,7 @@
     <summary>Русская версия</summary>
 
 Является развитием [предыдущего задания](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md).
-- Разработать ASP .NET Web Api приложение (.NET 6) с функционалом:
+- Разработать ASP .NET Web Api приложение (.NET 6/7) с функционалом:
   - Создание / изменение / удаление паллет
   - Добавление / Изменение / удаление коробок с конкретной паллеты
   - Получение паллеты по ИД
@@ -37,7 +37,7 @@
 - Внедрить следующие технологии:
   - Automapper
   - [FluentValidation](https://github.com/FluentValidation/FluentValidation)
-  - EF Core 6 с хранением данных в SQLite
+  - EF Core 6+ с хранением данных в SQLite
   - Swagger
   - DI (ServiceCollection / Autofac / любой контейнер на ваш выбор)
 - Разбить решение на проекты, соответствующие слоям:

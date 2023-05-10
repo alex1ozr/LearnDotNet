@@ -6,6 +6,9 @@
     <summary>English version</summary>
 
 - Implement a client for the previously developed web API.
+  - Implement two variants of client:
+    - Manual (using HttpClient)
+    - Generated (using NSwag)
   - Cover all API methods
 - Develop a console application with the following sequence of actions:
   - Create box
@@ -20,6 +23,9 @@
     <summary>Русская версия</summary>
 
 - Реализовать клиент для разработанного ранее web API.
+  - Реализовать два варианта клиента:
+    - Ручной (используя HttpClient)
+    - Сгенерированный (используя NSwag)
   - Покрыть все методы API
 - Разработать консольное приложение со следующей последовательностью действий:
   - Создать коробку

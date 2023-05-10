@@ -30,7 +30,7 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
    - Chapter 9
 9. [Design patterns](https://github.com/alex1ozr/LearnDotNet/tree/main/Patterns)
    - [Metanit](https://metanit.com/sharp/patterns/1.1.php)
-10. [Excercise #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
+10. [Exercise #1](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_1.md)
 11. ORM (EF Core)
     - Chapter 10
     - [Metanit](https://metanit.com/sharp/efcore/)
@@ -41,7 +41,7 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
     - Chapter 11
     - [MSDN](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)
     - [LINQ pipeline](https://www.red-gate.com/simple-talk/development/dotnet-development/linq-secrets-revealed-chaining-and-debugging/#fourth)
-13. [Excercise #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
+13. [Exercise #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
     - [Automapper](https://www.youtube.com/watch?v=3Rx85qlgjS4)
     - [SQLite tutorial](https://metanit.com/sql/sqlite/)
 14. Multitasking
@@ -72,7 +72,7 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
         - [MSDN: Attribute Routing](https://learn.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2)
     - Parameter binding in ASP.NET
         - [MSDN: Model Binding](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-3.1)
-    - [Excercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
+    - [Exercise #4](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_4.md)
 20. ASP.NET + E2E tests
     - HttpClient generation (NSwag)
       - [GitHub](https://github.com/RicoSuter/NSwag/wiki/CommandLine)
@@ -85,4 +85,6 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
       - [Article](https://highload.today/markdown/)
 21. ASP.NET MVC (Optional)
     - Chapters 14-15
-22. Job interview simulation - Code Review / System design
+22. [Exercise #5](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_5.md)
+23. [Exercise #6](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_6.md)
+24. Job interview simulation - Code Review / System design
