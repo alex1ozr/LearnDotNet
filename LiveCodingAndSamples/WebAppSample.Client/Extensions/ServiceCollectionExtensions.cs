@@ -39,19 +39,4 @@ public static class ServiceCollectionExtensions
 
         return serviceCollection;
     }
-    
-    public static ServiceCollection AddConfiguration(this ServiceCollection serviceCollection)
-    {
-        IConfiguration GetConfiguration()
-        {
-            var builder = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json");
-            return builder.Build();
-        }
-
-        var configuration = GetConfiguration();
-        serviceCollection.AddScoped<IConfiguration>(_ => configuration);
-
-        return serviceCollection;
-    }
 }

@@ -44,9 +44,9 @@
 7. When, how to GC
 8. Reference graph
 9. Finalizer vs IDisposable
-10. Finalization queue / Reachable queue
-11. Weak references? What & Why
-12. Disposable, using, try, catch, finally. Howto use it? Disposable pattern.
+10. [Finalization queue / Freachable queue](https://nabacg.wordpress.com/2012/03/11/what-do-you-know-about-freachable-queue/)
+11. [Weak references](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references)? What & Why
+12. Disposable, using, try, catch, finally. Howto use it? [Disposable pattern](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/dispose-pattern).
 
 ### Threads
 1. Threads vs Processes
@@ -69,7 +69,7 @@
 ### Data structures and Algorithms
 1. Dictionary and HashTable - what for?
     - Why O(1) for adding and finding in c# dictionary? questions about collision
-2. Big-O notation
+2. [Big-O notation](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
 3. DateTime vs DateTimeOffset vs TimeSpan
 4. List vs LinkedList vs Array
 
