@@ -17,16 +17,16 @@ internal static class Exercise7
 
     private class MyClass
     {
-        private static string PrintAndReturn(string text)
-        {
-            Console.Write(text);
-            return text;
-        }
-
         public static string StaticProperty { get; } = PrintAndReturn("SP ");
         public string InstanceProperty { get; } = PrintAndReturn("IP ");
 
         public MyClass() => PrintAndReturn("IC ");
         static MyClass() => PrintAndReturn("SC ");
+        
+        private static string PrintAndReturn(string text)
+        {
+            Console.Write(text);
+            return text;
+        }
     }
 }

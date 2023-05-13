@@ -5,10 +5,10 @@
 2. [Class vs Struct](https://c-sharp.pro/классы-или-структуры-в-чем-отличия/)
 3. [Record class vs record struct](https://falberthen.github.io/posts/cs10-records/)
 4. Inheritance
-4. Abstract vs Interface
+5. Abstract vs Interface
     - What's new in c#8? [Interface default implementations](https://devblogs.microsoft.com/dotnet/default-implementations-in-interfaces/)
-5. Difference between protected / internal / protected internal.
-6. Generics
+6. Difference between protected / internal / protected internal.
+7. Generics
 
 ### Immutable
 1. String / StringBuilder - what and why?
@@ -51,10 +51,13 @@
 ### Threads
 1. Threads vs Processes
 2. ThreadPool - what it is?
-3. Correct way to kill thread
-4. Lock Keyword
+   - [Habr](https://habr.com/ru/articles/654101/)
+3. Correct [way to kill thread](https://dotnettutorials.net/lesson/how-to-terminate-a-thread-in-csharp/#:~:text=How%20to%20Terminate%20a%20Thread%20in%20C%23%3F,exception%2C%20the%20thread%20is%20terminated.)
+4. [Lock Keyword](https://www.c-sharpcorner.com/UploadFile/de41d6/monitor-and-lock-in-C-Sharp/)
 5. Deadlock, race conditions
 6. Mutex / Semaphore / Monitor
+   - [MSDN](https://learn.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives)
+   - [Habr](https://habr.com/ru/articles/459514/)
 7. Volatile? ThreadStatic? ThreadLocal?
 8. Interlocked
 9. What are the solutions to work with static but to avoid multithreading issues?
@@ -84,16 +87,16 @@
 3. Inversion of control
 4. [GRASP](https://habr.com/ru/post/92570/)
 5. [Low coupling & high cohesion](https://medium.com/german-gorelkin/low-coupling-high-cohesion-d36369fb1be9)
-5. Static class vs Singleton
-6. Producer/Consumer pattern
-7. DDD/TDD etc.
-8. Idempotence
-9. CQRS+Event Sourcing
-10. Saga vs 2nd phase commit
-11. How do you define good code?
-12. What are the most used design patterns and how do they work?
-13. How can you add to the application build-in .net core dependency injection to help to implement principle D in SOLID?
-14. In a high scalable app which is decomposed to modules, what solution would you suggest to decompose dependency injection logic? How to ensure modularity and scalability? Reflection? 
+6. Static class vs Singleton
+7. Producer/Consumer pattern
+8. DDD/TDD etc.
+9. Idempotence
+10. CQRS+Event Sourcing
+11. Saga vs 2nd phase commit
+12. How do you define good code?
+13. What are the most used design patterns and how do they work?
+14. How can you add to the application build-in .net core dependency injection to help to implement principle D in SOLID?
+15. In a high scalable app which is decomposed to modules, what solution would you suggest to decompose dependency injection logic? How to ensure modularity and scalability? Reflection? 
 
 ### Testing
 1. Tests - howto? Unit \ Integration tests? What's difference?
@@ -115,10 +118,11 @@
     - Isolation — Изолированность
     - Durability — Надёжность
 3. Temporary tables
-4. Clustered vs non-clustered indexes
+4. [Clustered vs non-clustered indexes](https://ru.wikipedia.org/wiki/Индекс_(базы_данных))
 5. WHERE vs HAVING
-6. How can databases store data efficiently?
-7. You’ve been investigating slow api, some select queries take too much time, how to investigate why they are slow?
+6. [CAP theorem](https://habr.com/ru/articles/328792/)
+7. How can databases store data efficiently?
+8. You’ve been investigating slow api, some select queries take too much time, how to investigate why they are slow?
 
 ### ASP.NET Core
 1. [Middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
