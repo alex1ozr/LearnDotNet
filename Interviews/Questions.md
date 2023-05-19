@@ -24,6 +24,9 @@
 3. Type safety / [duck typing in .net](https://stackoverflow.com/questions/21278078/what-is-interface-duck-typing) (dynamics, foreach)
 4. Default value of type
 5. Type members / constructors [initialization order](https://stackoverflow.com/questions/40139099/auto-property-initialization-il-instruction-order)
+6. Covariance vs Contrvariance
+   - [MSDN](https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance)
+   - [Metanit](https://metanit.com/sharp/tutorial/3.27.php)
 
 ### LINQ
 1. LINQ
