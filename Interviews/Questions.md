@@ -1,5 +1,10 @@
 # Interview questions
 
+### General assembly questions
+1. What is an assembly? 
+2. What is an EXE and DLL? 
+3. What is JIT?
+
 ### OOP
 1. [OOP Principles](https://habr.com/ru/company/otus/blog/525336/)
 2. [Class vs Struct](https://c-sharp.pro/классы-или-структуры-в-чем-отличия/)
@@ -21,12 +26,14 @@
 2. Static / readonly / Const fields - difference?
     - What is the criteria of value that could be set to a constant field?
     - What is static, what are the risks behind static fields, why to use them?
-3. Type safety / [duck typing in .net](https://stackoverflow.com/questions/21278078/what-is-interface-duck-typing) (dynamics, foreach)
-4. Default value of type
-5. Type members / constructors [initialization order](https://stackoverflow.com/questions/40139099/auto-property-initialization-il-instruction-order)
-6. Covariance vs Contrvariance
+3. What are extension methods? What are the risks behind them?
+4. Type safety / [duck typing in .net](https://stackoverflow.com/questions/21278078/what-is-interface-duck-typing) (dynamics, foreach)
+5. Default value of type
+6. Type members / constructors [initialization order](https://stackoverflow.com/questions/40139099/auto-property-initialization-il-instruction-order)
+7. Covariance vs Contrvariance
    - [MSDN](https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance)
    - [Metanit](https://metanit.com/sharp/tutorial/3.27.php)
+8. What is Reflection?
 
 ### LINQ
 1. LINQ
@@ -36,7 +43,7 @@
 5. Enumerable / IQueryable / IObservable
 
 ### Memory + GC
-1. Difference between values and references (stack vs heap)
+1. Difference between Reference types and Value types (stack vs heap)
 2. [Boxing / Unboxing and type casting](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
 3. SOH, LOH, STACK (Small)
 4. Memory leaks in .net. Where? When? Why?
@@ -130,6 +137,8 @@
 ### ASP.NET Core
 1. [Middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
 2. Requests pipeline
+3. What is an HTTP client factory and why would we use it?
+4. What is a retry policy?
 
 ### System Design
 1. Service for shortening urls, how we can create systems like this, what database, architecture, cache, etc. to use?
