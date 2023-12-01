@@ -41,6 +41,7 @@ This course is based on reading the book **Price M.J. - CSharp 10 and .NET 6** c
     - Chapter 11
     - [MSDN](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)
     - [LINQ pipeline](https://www.red-gate.com/simple-talk/development/dotnet-development/linq-secrets-revealed-chaining-and-debugging/#fourth)
+    - [Video: Collections in .NET](https://www.youtube.com/watch?v=wVZhlsYQkf8)
 13. [Exercise #2](https://github.com/alex1ozr/LearnDotNet/blob/main/Exercises/Exercise_2.md)
     - [Automapper](https://www.youtube.com/watch?v=3Rx85qlgjS4)
     - [SQLite tutorial](https://metanit.com/sql/sqlite/)
