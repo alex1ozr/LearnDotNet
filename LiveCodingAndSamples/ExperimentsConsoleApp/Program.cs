@@ -2,12 +2,33 @@
 //A a = new A("testA");
 //a.WriteToConsole();
 
+using LearnDotNet.ExperimentsConsoleApp.Options;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+// IOptions test
+var configuration = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .AddInMemoryCollection(new []
+    {
+        new KeyValuePair<string, string?>("SomeOptions:Value", "in memory value")
+    })
+    .Build();
+var services = new ServiceCollection();
+services.AddSingleton<IConfiguration>(configuration);
+services.AddSomeOptionsService();
+var serviceProvider = services.BuildServiceProvider();
+
+var service = serviceProvider.GetRequiredService<ISomeOptionsService>();
+service.WriteOptions();
+
 object b = (A)new B("testB");
 var c = new C("testC");
 
 c.Execute();
 
 "sdfsdfs".WriteLineExtended();
+
 
 static class ClassCExtensions
 {
