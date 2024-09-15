@@ -5,7 +5,12 @@ Common interview questions and solutions.
 
 ## Table of contents
 
-1. [Questions](https://github.com/alex1ozr/LearnDotNet/blob/main/Interviews/Questions.md)
+1. Questions
+    - [.NET](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.NET.md)
+    - [Patterns](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Patterns.md)
+    - [DataBase](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.DataBase.md)
+    - [Messaging](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Messaging.md)
+    - [Architecture](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Architecture.md)
 2. [CodeReview tasks](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/CodeReview)
 3. [Typical quiz](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Samples)
 4. [Tasks](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Tasks)

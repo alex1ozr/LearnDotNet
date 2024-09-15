@@ -1,4 +1,4 @@
-# Interview questions
+# Interview questions (.NET)
 
 ### General assembly questions
 1. What is an assembly? 
@@ -86,28 +86,6 @@
 3. DateTime vs DateTimeOffset vs TimeSpan
 4. List vs LinkedList vs Array
 
-### Principles / Patterns
-1. Design pattern / antipattern (which design patterns you know?)
-2. SOLID
-    - [Single Responsibility Principle](https://metanit.com/sharp/patterns/5.1.php) (Принцип единственной обязанности)
-    - [Open/Closed Principle](https://metanit.com/sharp/patterns/5.2.php) (Принцип открытости/закрытости)
-    - [Liskov Substitution Principle](https://metanit.com/sharp/patterns/5.3.php) (Принцип подстановки Лисков)
-    - [Interface Segregation Principle](https://metanit.com/sharp/patterns/5.4.php) (Принцип разделения интерфейсов)
-    - [Dependency Inversion Principle](https://metanit.com/sharp/patterns/5.5.php) (Принцип инверсии зависимостей)
-3. Inversion of control
-4. [GRASP](https://habr.com/ru/post/92570/)
-5. [Low coupling & high cohesion](https://medium.com/german-gorelkin/low-coupling-high-cohesion-d36369fb1be9)
-6. Static class vs Singleton
-7. Producer/Consumer pattern
-8. DDD/TDD etc.
-9. Idempotence
-10. CQRS+Event Sourcing
-11. Saga vs 2nd phase commit
-12. How do you define good code?
-13. What are the most used design patterns and how do they work?
-14. How can you add to the application build-in .net core dependency injection to help to implement principle D in SOLID?
-15. In a high scalable app which is decomposed to modules, what solution would you suggest to decompose dependency injection logic? How to ensure modularity and scalability? Reflection? 
-
 ### Testing
 1. Tests - howto? Unit \ Integration tests? What's difference?
 2. Fake vs Mock vs Stub
@@ -120,25 +98,8 @@
 5. JWT tokens
 6. [Difference between 301 (permanent) and 302 types of redirection?](https://www.domain.com/blog/what-is-a-redirect/)
 
-### Database / ORM (EF)
-1. Transaction isolation levels
-2. [ACID](https://habr.com/ru/post/555920/)
-    - Atomicity — Атомарность
-    - Consistency — Согласованность
-    - Isolation — Изолированность
-    - Durability — Надёжность
-3. Temporary tables
-4. [Clustered vs non-clustered indexes](https://ru.wikipedia.org/wiki/Индекс_(базы_данных))
-5. WHERE vs HAVING
-6. [CAP theorem](https://habr.com/ru/articles/328792/)
-7. How can databases store data efficiently?
-8. You’ve been investigating slow api, some select queries take too much time, how to investigate why they are slow?
-
 ### ASP.NET Core
 1. [Middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
 2. Requests pipeline
 3. What is an HTTP client factory and why would we use it?
 4. What is a retry policy?
-
-### System Design
-1. Service for shortening urls, how we can create systems like this, what database, architecture, cache, etc. to use?
