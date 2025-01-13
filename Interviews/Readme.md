@@ -8,7 +8,7 @@ Common interview questions and solutions.
 1. Questions
     - [.NET](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.NET.md)
     - [Patterns](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Patterns.md)
-    - [DataBase](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.DataBase.md)
+    - [Database](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Database.md)
     - [Messaging](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Messaging.md)
     - [Architecture](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Architecture.md)
 2. [CodeReview tasks](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/CodeReview)
