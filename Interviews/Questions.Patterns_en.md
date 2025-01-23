@@ -2,11 +2,11 @@
 
 1. Design pattern / antipattern (which design patterns you know?)
 2. SOLID
-    - [Single Responsibility Principle](https://metanit.com/sharp/patterns/5.1.php) (Принцип единственной обязанности)
-    - [Open/Closed Principle](https://metanit.com/sharp/patterns/5.2.php) (Принцип открытости/закрытости)
-    - [Liskov Substitution Principle](https://metanit.com/sharp/patterns/5.3.php) (Принцип подстановки Лисков)
-    - [Interface Segregation Principle](https://metanit.com/sharp/patterns/5.4.php) (Принцип разделения интерфейсов)
-    - [Dependency Inversion Principle](https://metanit.com/sharp/patterns/5.5.php) (Принцип инверсии зависимостей)
+    - [Single Responsibility Principle](https://metanit.com/sharp/patterns/5.1.php)
+    - [Open/Closed Principle](https://metanit.com/sharp/patterns/5.2.php) 
+    - [Liskov Substitution Principle](https://metanit.com/sharp/patterns/5.3.php)
+    - [Interface Segregation Principle](https://metanit.com/sharp/patterns/5.4.php)
+    - [Dependency Inversion Principle](https://metanit.com/sharp/patterns/5.5.php)
 3. Inversion of control
 4. [GRASP](https://habr.com/ru/post/92570/)
 5. [Low coupling & high cohesion](https://medium.com/german-gorelkin/low-coupling-high-cohesion-d36369fb1be9)

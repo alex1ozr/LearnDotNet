@@ -18,11 +18,13 @@
 ### Immutable
 1. String / StringBuilder - what and why?
     - String types, why are special types in c#, is it value types or reference types?
+    - What is string interning?
 2. GetHashCode. What it is, what it for, Which requirements
 3. What's immutable? what's for?
 
 ### .NET
 1. [out/ ref/ in](https://www.pluralsight.com/guides/csharp-in-out-ref-parameters)
+   - Can ref and out be used with both value types and reference types?
 2. Static / readonly / Const fields - difference?
     - What is the criteria of value that could be set to a constant field?
     - What is static, what are the risks behind static fields, why to use them?
@@ -51,12 +53,14 @@
 6. How many generations. [Garbage collection](https://learn.microsoft.com/ru-ru/dotnet/standard/garbage-collection/fundamentals).
     - Generations: 0, 1, 2
     - Small objects heap (SOH) vs Large objects heap (LOH)
-7. When, how to GC
-8. Reference graph
-9. Finalizer vs IDisposable
-10. [Finalization queue / Freachable queue](https://nabacg.wordpress.com/2012/03/11/what-do-you-know-about-freachable-queue/)
-11. [Weak references](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references)? What & Why
-12. Disposable, using, try, catch, finally. Howto use it? [Disposable pattern](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/dispose-pattern).
+    - Is it possible to change the criterion (85 KB) by which objects are determined to be large objects heap?
+7. How many heaps and stacks are there in a .net application?
+8. When, how to GC
+9. Reference graph
+10. Finalizer vs IDisposable
+11. [Finalization queue / Freachable queue](https://nabacg.wordpress.com/2012/03/11/what-do-you-know-about-freachable-queue/)
+12. [Weak references](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references)? What & Why
+13. Disposable, using, try, catch, finally. Howto use it? [Disposable pattern](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/dispose-pattern).
 
 ### Threads
 1. Threads vs Processes
@@ -68,15 +72,22 @@
 6. Mutex / Semaphore / Monitor
    - [MSDN](https://learn.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives)
    - [Habr](https://habr.com/ru/articles/459514/)
-7. Volatile? ThreadStatic? ThreadLocal?
-8. Interlocked
-9. What are the solutions to work with static but to avoid multithreading issues?
+7. Access control to objects
+   - What does lock unfold into?
+   - What is BlockingСollection, ConcurrentBag?
+   - How does semaphore differ from semaphoreSlim?
+8. Volatile? ThreadStatic? ThreadLocal?
+9. Interlocked
+10. What are the solutions to work with static but to avoid multithreading issues?
 
 ### Async/Await
 1. What it is? When it is used?
+   - Do you need async/await for a heavy mathematical calculation function?
+     - No, it will still occupy all the processor time.
 2. Difference from multithreading
-3. Why is it prohibited to await in lock/Singleton?
-4. async await best practices
+3. What is a synchronization context? Where is it used?
+4. Why is it prohibited to await in lock/Singleton?
+5. async await best practices
    - [David Fowler](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
 
 ### Data structures and Algorithms
@@ -103,3 +114,6 @@
 2. Requests pipeline
 3. What is an HTTP client factory and why would we use it?
 4. What is a retry policy?
+5. Difference between HTTP 1.0 and HTTP 2.0
+   - What are the HTTP methods
+   - HTTP request caching methods
