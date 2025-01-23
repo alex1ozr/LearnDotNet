@@ -7,8 +7,8 @@ Common interview questions and solutions.
 
 1. Questions
    - .NET
-     - [Ru](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.NET_ru.md)
-     - [En](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.NET_en.md)
+     - [Ru](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.DotNet_ru.md)
+     - [En](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.DotNet_en.md)
    - Patterns
       - [Ru](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Patterns_ru.md)
       - [En](https://github.com/alex1ozr/LearnDotNet/tree/main/Interviews/Questions.Patterns.md)
