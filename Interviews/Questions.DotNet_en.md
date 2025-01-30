@@ -21,6 +21,7 @@
     - What is string interning?
 2. GetHashCode. What it is, what it for, Which requirements
 3. What's immutable? what's for?
+4. Immutable collections and thread-safe collections, what's the difference?
 
 ### .NET
 1. [out/ ref/ in](https://www.pluralsight.com/guides/csharp-in-out-ref-parameters)
@@ -43,6 +44,14 @@
 3. Anonymous types / methods / Lambdas
 4. Extension methods
 5. Enumerable / IQueryable / IObservable
+6. Can you change the expression tree in IQueryable?
+
+### Entity Framework / ORM
+1. Lazy/Eager loading, what are they for?
+   - what are the pros and cons?
+   - Why use the virtual keyword for navigation properties?
+2. What is Dapper and how does it differ from EF Core?
+3. What does Context.SaveChanges() unfold into?
 
 ### Memory + GC
 1. Difference between Reference types and Value types (stack vs heap)
@@ -66,19 +75,20 @@
 1. Threads vs Processes
 2. ThreadPool - what it is?
    - [Habr](https://habr.com/ru/articles/654101/)
-3. Correct [way to kill thread](https://dotnettutorials.net/lesson/how-to-terminate-a-thread-in-csharp/#:~:text=How%20to%20Terminate%20a%20Thread%20in%20C%23%3F,exception%2C%20the%20thread%20is%20terminated.)
-4. [Lock Keyword](https://www.c-sharpcorner.com/UploadFile/de41d6/monitor-and-lock-in-C-Sharp/)
-5. Deadlock, race conditions
-6. Mutex / Semaphore / Monitor
+3. What configurations can be applied to ThreadPool?
+4. Correct [way to kill thread](https://dotnettutorials.net/lesson/how-to-terminate-a-thread-in-csharp/#:~:text=How%20to%20Terminate%20a%20Thread%20in%20C%23%3F,exception%2C%20the%20thread%20is%20terminated.)
+5. [Lock Keyword](https://www.c-sharpcorner.com/UploadFile/de41d6/monitor-and-lock-in-C-Sharp/)
+6. Deadlock, race conditions
+7. Mutex / Semaphore / Monitor
    - [MSDN](https://learn.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives)
    - [Habr](https://habr.com/ru/articles/459514/)
-7. Access control to objects
+8. Access control to objects
    - What does lock unfold into?
    - What is BlockingСollection, ConcurrentBag?
-   - How does semaphore differ from semaphoreSlim?
-8. Volatile? ThreadStatic? ThreadLocal?
-9. Interlocked
-10. What are the solutions to work with static but to avoid multithreading issues?
+   - How does Semaphore differ from SemaphoreSlim?
+9. Volatile? ThreadStatic? ThreadLocal?
+10. Interlocked
+11. What are the solutions to work with static but to avoid multithreading issues?
 
 ### Async/Await
 1. What it is? When it is used?
@@ -87,8 +97,11 @@
 2. Difference from multithreading
 3. What is a synchronization context? Where is it used?
 4. Why is it prohibited to await in lock/Singleton?
-5. async await best practices
+5. What is the difference between Task and Thread?
+6. async await best practices
    - [David Fowler](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
+7. Why is ConfigureAwait() needed and is there a need to use it in ASP.NET Core?
+8. What is the difference between ConfigureAwait(true) and ConfigureAwait(false)? In the context of finite state machines, where does the execution return?
 
 ### Data structures and Algorithms
 1. Dictionary and HashTable - what for?
@@ -112,8 +125,13 @@
 ### ASP.NET Core
 1. [Middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
 2. Requests pipeline
-3. What is an HTTP client factory and why would we use it?
-4. What is a retry policy?
-5. Difference between HTTP 1.0 and HTTP 2.0
+3. What middleware must be in ASP.NET Core?
+4. What is an HTTP client factory and why would we use it?
+5. What is a retry policy?
+6. Difference between HTTP 1.0 and HTTP 2.0
    - What are the HTTP methods
    - HTTP request caching methods
+7. Identification, authentication, authorization.
+8. What are Cookies, JWT, OIDC?
+9. What is HostedService?
+10. What health checks are included in the middleware by default, how to connect your own?

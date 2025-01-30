@@ -1,6 +1,6 @@
 namespace Samples.Exercises;
 
-internal static class Exercise6
+internal static class Exercise06
 {
     // A: CTE
     // B: RTE - line 20

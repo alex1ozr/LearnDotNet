@@ -22,10 +22,10 @@
 4. Suppose a service can handle 10 rps, but we start receiving 1000 rps, how to fix it? (rate limiter)
     - What rate limiter algorithms exist?
 5. Suppose microservice A calls microservice B synchronously, the call takes 100 ms. We have 100 rps on A. And suddenly B starts responding not in 100ms but in 3000ms.
-- What will happen? Why is it bad? What are the options for fixing it?
+   - What will happen? Why is it bad? What are the options for fixing it?
 6. There is the following architecture: reading from a queue, writing to a database, sending to another queue. How to make the system fault-tolerant (read from the first queue, but did not have time to send to the next one).
-- The use of the Transactional Outbox pattern is expected.
-
+   - The use of the Transactional Outbox pattern is expected.
+7. Difference between SOA and microservices architecture.
 
 ## System design
 1. URL shortening service, how can we create such a system, what database, architecture, cache, etc. to use?

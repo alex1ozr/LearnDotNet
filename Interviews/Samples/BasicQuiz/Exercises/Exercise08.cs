@@ -1,7 +1,7 @@
 namespace Samples.Exercises;
 
 /// <remarks>Hint: https://stackoverflow.com/questions/18292087/accessing-and-changing-structs-as-property-vs-as-field</remarks>
-internal static class Exercise8
+internal static class Exercise08
 {
     // A: CTE
     // B: RTE

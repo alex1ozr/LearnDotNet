@@ -2,7 +2,7 @@ namespace Samples.Exercises;
 
 /// <remarks>Hint: https://stackoverflow.com/questions/32385930/when-can-a-listt-have-its-enumerator-current-always-return-null</remarks>
 /// <remarks>\nSource from: https://andreyakinshin.gitbook.io/problembookdotnet/en/valuetypes/enumerator-p</remarks>
-internal static class Exercise9
+internal static class Exercise09
 {
     // A: CTE
     // B: RTE
