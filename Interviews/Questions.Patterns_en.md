@@ -16,7 +16,10 @@
 9. Outbox pattern
 10. Idempotence
 11. CQRS+Event Sourcing
-12. Saga vs 2nd phase commit
+12. Saga
+    - Orchestration and choreography, pros, cons, and complexity
+    - What other means can be used to achieve distributed transactions?
+    - Difference from 2-phase commit
 13. How do you define good code?
 14. What are the most used design patterns and how do they work?
 15. How can you add to the application build-in .net core dependency injection to help to implement principle D in SOLID?

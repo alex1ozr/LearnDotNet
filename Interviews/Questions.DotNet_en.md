@@ -37,6 +37,7 @@
    - [MSDN](https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance)
    - [Metanit](https://metanit.com/sharp/tutorial/3.27.php)
 8. What is Reflection?
+9. What is faster: concatenation or interpolation?
 
 ### LINQ
 1. LINQ
@@ -54,22 +55,24 @@
 3. What does Context.SaveChanges() unfold into?
 
 ### Memory + GC
-1. Difference between Reference types and Value types (stack vs heap)
-2. [Boxing / Unboxing and type casting](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
-3. SOH, LOH, STACK (Small)
-4. Memory leaks in .net. Where? When? Why?
-5. Garbage Collector
-6. How many generations. [Garbage collection](https://learn.microsoft.com/ru-ru/dotnet/standard/garbage-collection/fundamentals).
+1. [Memory allocation in the heap](https://learn.microsoft.com/en-us/dotnet/standard/automatic-memory-management)
+   - Explicit and implicit memory allocation in the heap
+2. Difference between Reference types and Value types (stack vs heap)
+3. [Boxing / Unboxing and type casting](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
+4. SOH, LOH, STACK (Small)
+5. Memory leaks in .net. Where? When? Why?
+6. Garbage Collector
+7. How many generations. [Garbage collection](https://learn.microsoft.com/ru-ru/dotnet/standard/garbage-collection/fundamentals).
     - Generations: 0, 1, 2
     - Small objects heap (SOH) vs Large objects heap (LOH)
     - Is it possible to change the criterion (85 KB) by which objects are determined to be large objects heap?
-7. How many heaps and stacks are there in a .net application?
-8. When, how to GC
-9. Reference graph
-10. Finalizer vs IDisposable
-11. [Finalization queue / Freachable queue](https://nabacg.wordpress.com/2012/03/11/what-do-you-know-about-freachable-queue/)
-12. [Weak references](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references)? What & Why
-13. Disposable, using, try, catch, finally. Howto use it? [Disposable pattern](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/dispose-pattern).
+8. How many heaps and stacks are there in a .net application?
+9. When, how to GC
+10. Reference graph
+11. Finalizer vs IDisposable
+12. [Finalization queue / Freachable queue](https://nabacg.wordpress.com/2012/03/11/what-do-you-know-about-freachable-queue/)
+13. [Weak references](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references)? What & Why
+14. Disposable, using, try, catch, finally. Howto use it? [Disposable pattern](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/dispose-pattern).
 
 ### Threads
 1. Threads vs Processes
@@ -92,8 +95,7 @@
 
 ### Async/Await
 1. What it is? When it is used?
-   - Do you need async/await for a heavy mathematical calculation function?
-     - No, it will still occupy all the processor time.
+   - Do you need async/await for a heavy mathematical calculation function? (No, it will still take all the processor time)
 2. Difference from multithreading
 3. What is a synchronization context? Where is it used?
 4. Why is it prohibited to await in lock/Singleton?
@@ -102,10 +104,14 @@
    - [David Fowler](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
 7. Why is ConfigureAwait() needed and is there a need to use it in ASP.NET Core?
 8. What is the difference between ConfigureAwait(true) and ConfigureAwait(false)? In the context of finite state machines, where does the execution return?
+9. What is Task? What does it unfold into?
 
 ### Data structures and Algorithms
 1. Dictionary and HashTable - what for?
-    - Why O(1) for adding and finding in c# dictionary? questions about collision
+   - Why O(1) for adding and finding in c# dictionary?
+   - Characteristics of the hash function
+   - Types of hashing (chain/open addressing)
+   - Ways to resolve collisions
 2. [Big-O notation](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
 3. DateTime vs DateTimeOffset vs TimeSpan
 4. List vs LinkedList vs Array
@@ -135,3 +141,4 @@
 8. What are Cookies, JWT, OIDC?
 9. What is HostedService?
 10. What health checks are included in the middleware by default, how to connect your own?
+11. [What is CORS](https://andrewlock.net/series/understanding-cross-origin-security-headers/)?

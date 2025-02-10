@@ -37,6 +37,7 @@
    - [MSDN](https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance)
    - [Metanit](https://metanit.com/sharp/tutorial/3.27.php)
 8. Что такое Рефлексия?
+9. Что быстрее: конкатенация или интерполяция?
 
 ### LINQ
 1. LINQ
@@ -54,22 +55,24 @@
 3. Во что разворачивается Context.SaveChanges()?
 
 ### Память + GC
-1. Разница между ссылочными и значимыми типами (стек vs куча)
-2. [Упаковка / Распаковка и приведение типов](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
-3. SOH, LOH, STACK (Маленький)
-4. Утечки памяти в .net. Где? Когда? Почему?
-5. Сборщик мусора
-6. Сколько поколений. [Сборка мусора](https://learn.microsoft.com/ru-ru/dotnet/standard/garbage-collection/fundamentals).
+1. [Выделение памяти в куче](https://learn.microsoft.com/ru-ru/dotnet/standard/automatic-memory-management)
+   - Явное и неявное выделение памяти в куче
+2. Разница между ссылочными и значимыми типами (стек vs куча)
+3. [Упаковка / Распаковка и приведение типов](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
+4. SOH, LOH, STACK (Маленький)
+5. Утечки памяти в .net. Где? Когда? Почему?
+6. Сборщик мусора
+7. Сколько поколений. [Сборка мусора](https://learn.microsoft.com/ru-ru/dotnet/standard/garbage-collection/fundamentals).
    - Поколения: 0, 1, 2
    - Куча малых объектов (SOH) vs Куча больших объектов (LOH)
    - Можно ли изменить критерий (85 КБ), по которому объекты определяются как большие объекты?
-7. Сколько бывает куч и стэков в рамках .net приложения?
-8. Когда и как использовать GC
-9. Граф ссылок
-10. Финализатор vs IDisposable
-11. [Очередь финализации / Очередь Freachable](https://nabacg.wordpress.com/2012/03/11/what-do-you-know-about-freachable-queue/)
-12. [Слабые ссылки](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references)? Что и зачем
-13. Disposable, using, try, catch, finally. Как использовать? [Шаблон Disposable](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/dispose-pattern).
+8. Сколько бывает куч и стэков в рамках .net приложения?
+9. Когда и как использовать GC
+10. Граф ссылок
+11. Финализатор vs IDisposable
+12. [Очередь финализации / Очередь Freachable](https://nabacg.wordpress.com/2012/03/11/what-do-you-know-about-freachable-queue/)
+13. [Слабые ссылки](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/weak-references)? Что и зачем
+14. Disposable, using, try, catch, finally. Как использовать? [Шаблон Disposable](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/dispose-pattern).
 
 ### Потоки
 1. Потоки vs Процессы
@@ -92,8 +95,7 @@
 
 ### Async/Await
 1. Что это? Когда используется?
-   - Нужны ли async/await для тяжелой математической функции?
-     - Нет она всё равно займёт всё процессорное время
+   - Нужны ли async/await для тяжелой математической функции? (Нет, она всё равно займёт всё процессорное время)
 2. Разница с многопоточностью
 3. Что такое контекст синхронизации? Где используется?
 4. Почему запрещено использовать await в lock/Singleton?
@@ -102,10 +104,14 @@
    - [David Fowler](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
 7. Зачем нужен ConfigureAwait() и есть ли необходимость в его использовании в ASP.NET Core?
 8. В чём отличие ConfigureAwait(true и false), в разрезе машины конечных автоматов, куда возвращается выполнение?
+9. Во что разворачивается Task? ([Habr.com #1](https://habr.com/ru/articles/452094/),[Habr.com #2](https://habr.com/ru/companies/otus/articles/861074/))
 
 ### Структуры данных и Алгоритмы
 1. Dictionary и HashTable - для чего?
-   - Почему O(1) для добавления и поиска в c# dictionary? вопросы о коллизиях
+   - Почему O(1) для добавления и поиска в c# dictionary?
+   - Свойства/характеристики функции хеширования
+   - Виды хеширования (цепочка/открытая адресация)
+   - Способы разрешения коллизий
 2. [Нотация Big-O](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
 3. DateTime vs DateTimeOffset vs TimeSpan
 4. List vs LinkedList vs Array
@@ -135,3 +141,4 @@
 8. Что такое Cookies, JWT, OIDC?
 9. Что такое HostedService?
 10. Какие health check'и по умолчанию включены в middleware, как подключить свои?
+11. [Что такое CORS](https://andrewlock.net/series/understanding-cross-origin-security-headers/)?

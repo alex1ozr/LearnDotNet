@@ -1,6 +1,7 @@
 # Performance
 
-1. Some code was written and tested to run quickly.
-   A week or two passes and complaints come in that there are slowdowns in the work, while the code remained unchanged.
-   What should you pay attention to when analyzing the problem?
-2. Methods of analysis and reasons for long query execution time to the database
+1. Был написан некоторый код и проверен, что отрабатывает быстро.
+   Проходит неделя или две и приходят жалобы, что начались замедления в работе, при этом код остался без изменений.
+   - На что обратить внимание при анализе проблемы? 
+   - Как понять, что пошло не, так и где искать проблему?
+2.  Методы анализа и причины долгого времени выполнения запроса к БД
