@@ -42,3 +42,12 @@ X[] = { 1, 2, 3, 4, 7 }
 Y[] = { 8, 9, 10 }
 
 4. Prove that the tree is a binary search tree
+
+5. How to handle an exception in the method SomeTaskAsync?
+```csharp
+try {
+   // ...
+   SomeTaskAsync(); // not awaited
+   // ...
+   catch(...){...}
+```

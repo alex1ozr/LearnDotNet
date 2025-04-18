@@ -142,3 +142,7 @@
 9. What is HostedService?
 10. What health checks are included in the middleware by default, how to connect your own?
 11. [What is CORS](https://andrewlock.net/series/understanding-cross-origin-security-headers/)?
+
+### File handling
+1. Concurrent access to files
+   - What effects can occur when reading/writing concurrently?

@@ -142,3 +142,7 @@
 9. Что такое HostedService?
 10. Какие health check'и по умолчанию включены в middleware, как подключить свои?
 11. [Что такое CORS](https://andrewlock.net/series/understanding-cross-origin-security-headers/)?
+
+### Работа с файлами
+1. Конкурентный доступ к файлам
+   - Какие эффекты могут произойти при конкурентном чтении/записи?
