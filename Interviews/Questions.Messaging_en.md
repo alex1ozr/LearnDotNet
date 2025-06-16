@@ -4,6 +4,7 @@
 1. What is Kafka?
     - How does it work? What are topics and partitions?
     - Why is Kafka not a queue? How is Kafka different from a queue (RMQ)?
+    - What is the difference between Rabbit MQ and Kafka from the consumer's side (Pull/push models)?
     - What are the configurations of Kafka?
     - What are the message delivery guarantees in Kafka?
     - Suppose the fact of sending a message to Kafka was not committed and we try to send it again? Will there be two messages in Kafka? Why is it bad? How to fix it? (idempotence)

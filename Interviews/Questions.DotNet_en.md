@@ -38,6 +38,7 @@
    - [Metanit](https://metanit.com/sharp/tutorial/3.27.php)
 8. What is Reflection?
 9. What is faster: concatenation or interpolation?
+10. What is closure? How does it work?
 
 ### LINQ
 1. LINQ
@@ -92,10 +93,17 @@
 9. Volatile? ThreadStatic? ThreadLocal?
 10. Interlocked
 11. What are the solutions to work with static but to avoid multithreading issues?
+12. What is the problem with the code below?
+```csharp
+lock(message){
+ await Task.Sleep(5)
+}**
+ ```
 
 ### Async/Await
 1. What it is? When it is used?
    - Do you need async/await for a heavy mathematical calculation function? (No, it will still take all the processor time)
+   - On which threads does the asynchronous execution of the method occur in different parts of the code?
 2. Difference from multithreading
 3. What is a synchronization context? Where is it used?
 4. Why is it prohibited to await in lock/Singleton?
