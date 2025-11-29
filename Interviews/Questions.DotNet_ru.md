@@ -4,6 +4,7 @@
 1. [Что такое сборка?](InterviewAnswers/Общие вопросы.md)
 2. Что такое EXE и DLL?
 3. Что такое JIT?
+4. Что такое CLR? Что такое IL? Что такое CLS?
 
 ### ООП
 1. [Принципы ООП](https://habr.com/ru/company/otus/blog/525336/)
