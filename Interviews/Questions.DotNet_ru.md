@@ -6,6 +6,7 @@
 3. Что такое JIT?
 4. Что такое CLR? Что такое IL? Что такое CLS?
 5. В чем разница между понятиями namespace и assembly?
+6. Что такое GAC?
 
 ### ООП
 1. [Принципы ООП](https://habr.com/ru/company/otus/blog/525336/)
